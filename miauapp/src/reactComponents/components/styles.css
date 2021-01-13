@@ -1,0 +1,32 @@
+.start-button {
+    margin: 0;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);;
+    transform: translate(-50%, -50%);
+}
+.start-button-style { 
+    background-color: #15AC19;
+    border-style:inset;
+    border-color:#0f5013;
+    color:black;
+    padding:1.0em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    font-size: 2.0em;
+    border-radius: 1.0em;
+    box-shadow: 0 0.2em #999;
+}
+
+.start-button-style:hover {
+    background-color: #1a8321}
+
+.start-button-style:active {
+    background-color: #1e641e;
+    transform: translateY(0.1em);
+    box-shadow: 0 0.2em rgb(119, 119, 119);
+    color:#cdd6ce;
+}

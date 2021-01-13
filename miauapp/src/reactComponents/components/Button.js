@@ -1,7 +1,17 @@
 import { React } from 'react';
-
+import './styles.css';
 
 
 export default function Button(props) {
-    return (<></>);
+
+    const handleClick = (event) => {
+        props.OnClick();
+    }
+
+    return (
+        <div class={props.classPosition}>
+            <button class={props.classStyle} OnClick={handleClick}>
+                {props.buttonText}
+            </button>
+        </div>);
 }

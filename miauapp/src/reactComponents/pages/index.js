@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/Button.js';
 
 
 export default function LandingPage(props) {
@@ -8,11 +9,7 @@ export default function LandingPage(props) {
         props.handlePageChange(msg);
     }
 
-    return (
-            <div>
-                <button tab="/story" onClick={handlePageChange}>
-                    Paina nappulaa
-                </button>
-            </div>
-            );
+    return (<div>
+                <Button buttonText={"A-LOI-TA"} classPosition={"start-button"} classStyle={"start-button-style"} OnClick={handlePageChange}/>
+            </div>);
 }

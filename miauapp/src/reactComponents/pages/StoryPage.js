@@ -15,19 +15,22 @@ export default function StoryPage(props) {
       let msg = {tab: event.target.tab}
       props.handlePageChange(msg);
   }
-  
+
   return (
     <div>
+      {/* Story text area */}
       <TextArea
       text={pageinformation.text}
       classPosition={""}
       classStyle={""}
       />
+      {/* Story image */}
       <StoryImage
       image={pageinformation.image}
       classPosition={""}
       classStyle={""}
       />
+      {/* Next page button */}
       <Button
       buttonText={""}
       classPosition={""}

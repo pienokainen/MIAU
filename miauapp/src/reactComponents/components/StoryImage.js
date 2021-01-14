@@ -1,7 +1,11 @@
 import { React } from 'react';
+import './styles.css';
 
 
+export default function StoryImage(props) {
 
-export default function StoryImage() {
-    return (<></>);
+    return (
+        <div class={props.classPosition}>
+
+        </div>);
 }

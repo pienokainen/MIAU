@@ -1,7 +1,28 @@
 .questionnaire-button {
-    background-color: blue;
+    background: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pcpp-tiny-taco-15492-1-1562161902.jpg);
+    border: 1px solid green; 
+    cursor: pointer; 
+    float: none;  
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+
+
 }
 
+
 .questionnaire-button-style {
-    background-color: blue;
+    background-color: Transparent;
+    height: 5em;
+    width: 5em;
+}
+
+#wrapper {
+    /* background-color: green; */
+    width: 40em;
+    margin: 0 auto;
+    text-align: center;
 }

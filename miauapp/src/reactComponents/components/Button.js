@@ -10,7 +10,7 @@ export default function Button(props) {
 
     return (
         <div class={props.classPosition}>
-            <button class={props.classStyle} OnClick={handleClick}>
+            <button class={props.classStyle} onClick={handleClick}>
                 {props.buttonText}
             </button>
         </div>);

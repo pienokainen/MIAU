@@ -16,7 +16,6 @@ function App() {
     setIsLoading(true)
 
     UpdateStoryItems("", setStoryData, setIsLoading);
-    console.log(isLoading, storyData);
   }, []);
 
   

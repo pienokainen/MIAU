@@ -1,7 +1,6 @@
-.questionnaire-button {
-    background-color: blue;
-}
-
-.questionnaire-button-style {
-    background-color: blue;
+#wrapper {
+    /* background-color: green; */
+    width: 40em;
+    margin: 0 auto;
+    text-align: center;
 }

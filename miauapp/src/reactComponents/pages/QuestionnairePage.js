@@ -14,6 +14,6 @@ export default function QuestionnairePage() {
                 <Button classPosition={"questionnaire-button"} classStyle={"questionnaire-button-style"}/>
             </div>
         </div>
-            );
+        );
 
 }

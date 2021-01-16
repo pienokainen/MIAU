@@ -6,7 +6,7 @@
     -ms-transform: translate(-50%, -50%);;
     transform: translate(-50%, -50%);
 }
-.start-button-style { 
+.start-button-style {
     background-color: #15AC19;
     border-style:inset;
     border-color:#0f5013;
@@ -29,4 +29,23 @@
     transform: translateY(0.1em);
     box-shadow: 0 0.2em rgb(119, 119, 119);
     color:#cdd6ce;
+}
+
+.questionnaire-button {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Finland_road_sign_E1-1.svg/250px-Finland_road_sign_E1-1.svg.png");
+    border: 1px solid green;
+    cursor: pointer;
+    float: none;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.questionnaire-button-style {
+    background-color: Transparent;
+    height: 15em;
+    width: 15em;
 }

@@ -1,6 +1,10 @@
 {
     "story1Data": [
     {
+        "pageType": "header",
+        "maxPoints": 2
+    },
+    {
         "pageType": "story",
         "pageIndex": 0,
         "text": "Story text starts...",
@@ -35,6 +39,9 @@
             "imageType": "jpg",
             "imageLocation": "25435543135486434684321684"
         }
+    },
+    {
+        "pageType": "report"
     }
     ]
 }

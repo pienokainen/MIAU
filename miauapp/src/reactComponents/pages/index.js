@@ -12,13 +12,13 @@ export default function PageRenderer(props) {
     const renderPage = () => {
         switch (props.newPageInformation) {
             case ("landingPage"):
-                return <LandingPage/>;
+                return <LandingPage handlePageChange={props.handlePageChange}/>;
             case ("storyPage"):
-                return <StoryPage/>;
+                return <StoryPage props={props}/>;
             case ("questionnairePage"):
-                return <QuestionnairePage/>;
+                return <QuestionnairePage props={props}/>;
             case ("reportPage"):
-                return <ReportPage/>;
+                return <ReportPage props={props}/>;
             default:
                 // Todo; Error
                 <alert></alert>

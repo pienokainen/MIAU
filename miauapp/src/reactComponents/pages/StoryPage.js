@@ -12,8 +12,7 @@ export default function StoryPage(props) {
   }
 
   const handlePageChange = (event) => {
-      let msg = {tab: event.target.tab}
-      props.handlePageChange(msg);
+    props.handlePageChange('questionnairePage');
   }
 
   return (

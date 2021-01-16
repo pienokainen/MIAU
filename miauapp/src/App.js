@@ -1,21 +1,29 @@
-import React, {useState} from  'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import {GetView} from './services'
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { UpdateStoryItems } from './services'
 import PageRenderer from './reactComponents/pages/index.js'
 import globalStyles from './styles/globalStyles.css';
 
 function App() {
 
+  const [isLoading, setIsLoading] = useState(false);
+  const [storyData, setStoryData] = useState([]);
   const [textValue, setTextValue] = useState("");
   const [currentPage, setCurrentPage] = useState("");
   const [newPageInformation, setNewPageInformation] = useState("landingPage");
 
-  const handlePageChange = (sender) => {
-    let parameter = sender.storyId;
-    let variable = GetView(parameter);
+  useEffect(() => {
+    setIsLoading(true)
 
-    setNewPageInformation(variable);
-    setCurrentPage(newPageInformation.pageName)
+    UpdateStoryItems("", setStoryData, setIsLoading);
+    console.log(isLoading, storyData);
+  }, []);
+
+  
+  const handlePageChange = (newPage) => {
+
+    setNewPageInformation(newPage);
+
   }
 
   return (
@@ -23,7 +31,9 @@ function App() {
       <div className={globalStyles}>
         <Switch>
           <Route exact path="/">
-            <PageRenderer textValue={textValue} handlePageChange={handlePageChange} newPageInformation={newPageInformation}/>
+            <PageRenderer textValue={textValue}
+                          handlePageChange={handlePageChange}
+                          newPageInformation={newPageInformation} />
           </Route>
         </Switch>
       </div>

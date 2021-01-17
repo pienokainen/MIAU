@@ -10,17 +10,19 @@ import StoryPage from './StoryPage.js';
 export default function PageRenderer(props) {
 
     const renderPage = () => {
-        switch (props.newPageInformation) {
-            case ("landingPage"):
-                return <LandingPage handlePageChange={props.handlePageChange}/>;
-            case ("storyPage"):
-                return <StoryPage props={props}/>;
-            case ("questionnairePage"):
-                return <QuestionnairePage props={props}/>;
-            case ("reportPage"):
-                return <ReportPage props={props}/>;
+        switch (props.newPageInformation.pageType) {
+            case ("landing"):
+                return <LandingPage handlePageChange={props.handlePageChange}
+                                    pageInformation={props.newPageInformation}/>;
+            case ("story"):
+                return <StoryPage handlePageChange={props.handlePageChange}
+                                  pageInformation={props.newPageInformation}/>;
+            case ("questionnaire"):
+                return <QuestionnairePage handlePageChange={props.handlePageChange}
+                                          pageInformation={props.newPageInformation}/>;
+            case ("report"):
+                return <ReportPage handlePageChange={props.handlePageChange}/>;
             default:
-                // Todo; Error
                 <alert></alert>
         }
     }

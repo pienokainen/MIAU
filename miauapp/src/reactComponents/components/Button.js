@@ -13,7 +13,7 @@ export default function Button(props) {
         <div className={props.classPosition}>
             <button
             style={
-              {background: 'url("' + bgrUrl + '")'}
+              {backgroundImage: 'url("' + bgrUrl + '")'}
             }
             className={props.classStyle}
             onClick={handleClick}>

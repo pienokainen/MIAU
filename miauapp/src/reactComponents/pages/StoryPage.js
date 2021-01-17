@@ -31,10 +31,7 @@ export default function StoryPage(props) {
       />
       {/* Next page button */}
       <Button
-      buttonText={""}
-      classPosition={""}
-      classStyle={""}
-      OnClick={handlePageChange}/>
+      classPosition={"nextpage-button"} classStyle={"nextpage-button-style"}/>
 
     </div>
   );

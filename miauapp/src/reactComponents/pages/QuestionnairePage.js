@@ -31,9 +31,10 @@ export default function QuestionnairePage(props) {
     bgrUrls[2] = "./databaseMock/images/stop.png"
 
     return (
+      <div>
         <div id="wrapper">
             <h3> New Page </h3>
-            <div class="button-group">
+            <div className="button-group">
                 <Button
                 bgrUrl={bgrUrls[0]}
                 classPosition={"questionnaire-button"} classStyle={"questionnaire-button-style"}/>
@@ -45,6 +46,9 @@ export default function QuestionnairePage(props) {
                 classPosition={"questionnaire-button"} classStyle={"questionnaire-button-style"}/>
             </div>
         </div>
+        <Button
+        classPosition={"nextpage-button"} classStyle={"nextpage-button-style"}/>
+      </div>
         );
 
 }

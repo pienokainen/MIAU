@@ -49,3 +49,16 @@
     width: 15em;
     background-size: 100%;
 }
+
+.nextpage-button {
+    float: right;
+    justify-content: center;
+}
+
+.nextpage-button-style {
+    background-color: Transparent;
+    background-image: url("https://img.icons8.com/plasticine/2x/circled-chevron-right.png");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
+}

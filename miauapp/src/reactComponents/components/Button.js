@@ -7,10 +7,16 @@ export default function Button(props) {
     const handleClick = (event) => {
         props.OnClick();
     }
+    let bgrUrl = props.bgrUrl;
 
     return (
         <div className={props.classPosition}>
-            <button className={props.classStyle} onClick={handleClick}>
+            <button
+            style={
+              {background: 'url("' + bgrUrl + '")'}
+            }
+            className={props.classStyle}
+            onClick={handleClick}>
                 {props.buttonText}
             </button>
         </div>);

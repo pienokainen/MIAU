@@ -32,7 +32,6 @@
 }
 
 .questionnaire-button {
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Finland_road_sign_E1-1.svg/250px-Finland_road_sign_E1-1.svg.png");
     border: 1px solid green;
     cursor: pointer;
     float: none;
@@ -46,6 +45,7 @@
 
 .questionnaire-button-style {
     background-color: Transparent;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Finland_road_sign_E1-1.svg/250px-Finland_road_sign_E1-1.svg.png");
     height: 15em;
     width: 15em;
 }

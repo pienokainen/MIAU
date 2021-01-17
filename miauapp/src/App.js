@@ -8,9 +8,10 @@ function App() {
 
   const [isLoading, setIsLoading] = useState(false);
   const [storyData, setStoryData] = useState([]);
-  const [textValue, setTextValue] = useState("");
-  const [currentPage, setCurrentPage] = useState("");
-  const [newPageInformation, setNewPageInformation] = useState("landingPage");
+  const [storyPoints, setStoryPoints] = useState({"currentPoints":0, "maxPoints":0});
+  const [newPageInformation, setNewPageInformation] = useState({"pageType":"landing"});
+
+  let currentIndex = 0;
 
   useEffect(() => {
     setIsLoading(true)
@@ -19,10 +20,22 @@ function App() {
   }, []);
 
   
-  const handlePageChange = (newPage) => {
+  const handlePageChange = () => {
 
-    setNewPageInformation(newPage);
+    const currentStoryData = storyData.storyData[currentIndex];
 
+    if (currentStoryData.pageType === "header") {
+      setStoryPoints({...storyPoints, "maxPoints":currentStoryData.maxPoints});
+      currentIndex++;
+    }
+
+    if (currentStoryData.pageType === "report") {
+      // Todo: logic to get to report page
+
+    }
+
+    setNewPageInformation(storyData.storyData[currentIndex]);
+    currentIndex++;
   }
 
   return (
@@ -30,9 +43,8 @@ function App() {
       <div className={globalStyles}>
         <Switch>
           <Route exact path="/">
-            <PageRenderer textValue={textValue}
-                          handlePageChange={handlePageChange}
-                          newPageInformation={newPageInformation} />
+            <PageRenderer handlePageChange={handlePageChange}
+                          newPageInformation={newPageInformation}/>
           </Route>
         </Switch>
       </div>

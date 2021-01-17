@@ -1,12 +1,13 @@
 {
-    "story1Data": [
+    "storyData": [
     {
         "pageType": "header",
+        "pageIndex": 0,
         "maxPoints": 2
     },
     {
         "pageType": "story",
-        "pageIndex": 0,
+        "pageIndex": 1,
         "text": "Story text starts...",
         "storyImages": {
             "imageType": "jpg",
@@ -15,7 +16,7 @@
     },
     {
         "pageType": "questionnaire",
-        "pageIndex": 1,
+        "pageIndex": 2,
         "text": "Story text starts...",
         "questionImages": {
             "imageType": "jpg",
@@ -24,7 +25,7 @@
     },
     {
         "pageType": "story",
-        "pageIndex": 2,
+        "pageIndex": 3,
         "text": "Story text starts...",
         "storyImages": {
             "imageType": "jpg",
@@ -33,7 +34,7 @@
     },
     {
         "pageType": "questionnaire",
-        "pageIndex": 3,
+        "pageIndex": 4,
         "text": "Story text starts...",
         "questionImages": {
             "imageType": "jpg",

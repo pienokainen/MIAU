@@ -7,17 +7,27 @@ export default function Button(props) {
     const handleClick = (event) => {
         props.OnClick();
     }
-    let bgrUrl = props.bgrUrl;
 
     return (
         <div className={props.classPosition}>
-            <button
-            style={
-              {background: 'url("' + bgrUrl + '")'}
-            }
-            className={props.classStyle}
-            onClick={handleClick}>
-                {props.buttonText}
-            </button>
+        {props.bgrUrl !== undefined ?
+          /* If there is a bgrUrl prop */
+          <button
+          style={
+            {backgroundImage: `url("${props.bgrUrl}")`}
+          }
+          className={props.classStyle}
+          onClick={handleClick}>
+              {props.buttonText}
+          </button>
+          :
+          /* If there isn't a bgrUrlprop */
+          <button
+          className={props.classStyle}
+          onClick={handleClick}>
+              {props.buttonText}
+          </button>
+        }
+
         </div>);
 }

@@ -26,15 +26,15 @@ export default function QuestionnairePage(props) {
         // TODO: logic to handle negative feedback
     }
     let bgrUrls = []
-    bgrUrls[0] = "./public/databaseMock/images/suojatie.png"
-    bgrUrls[1] = "https://tpc.googlesyndication.com/simgad/1639573414314707741?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qlFYiYFj_WuaJ8JAoWxkR7nwzAqmg"
-    bgrUrls[2] = "https://tpc.googlesyndication.com/simgad/1639573414314707741?sqp=4sqPyQQrQikqJwhfEAEdAAC0QiABKAEwCTgDQPCTCUgAUAFYAWBfcAJ4AcUBLbKdPg&rs=AOga4qlFYiYFj_WuaJ8JAoWxkR7nwzAqmg"
-
+    bgrUrls[0] = "./databaseMock/images/suojatie.png"
+    bgrUrls[1] = "./databaseMock/images/vilperi.webp"
+    bgrUrls[2] = "./databaseMock/images/stop.png"
 
     return (
+      <div>
         <div id="wrapper">
             <h3> New Page </h3>
-            <div class="button-group">
+            <div className="button-group">
                 <Button
                 bgrUrl={bgrUrls[0]}
                 classPosition={"questionnaire-button"} classStyle={"questionnaire-button-style"}/>
@@ -46,6 +46,9 @@ export default function QuestionnairePage(props) {
                 classPosition={"questionnaire-button"} classStyle={"questionnaire-button-style"}/>
             </div>
         </div>
+        <Button
+        classPosition={"nextpage-button"} classStyle={"nextpage-button-style"}/>
+      </div>
         );
 
 }

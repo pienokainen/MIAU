@@ -45,7 +45,20 @@
 
 .questionnaire-button-style {
     background-color: Transparent;
-    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Finland_road_sign_E1-1.svg/250px-Finland_road_sign_E1-1.svg.png");
     height: 15em;
     width: 15em;
+    background-size: 100%;
+}
+
+.nextpage-button {
+    float: right;
+    justify-content: center;
+}
+
+.nextpage-button-style {
+    background-color: Transparent;
+    background-image: url("https://img.icons8.com/plasticine/2x/circled-chevron-right.png");
+    height: 15em;
+    width: 15em;
+    background-size: 100%;
 }

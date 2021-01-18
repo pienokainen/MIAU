@@ -1,48 +1,32 @@
 {
-    "storyData": [
-    {
-        "pageType": "header",
-        "pageIndex": 0,
-        "maxPoints": 2
-    },
+    "maxPoints": 2,
+    "pages": [
     {
         "pageType": "story",
-        "pageIndex": 1,
         "text": "Story text starts...",
-        "storyImages": {
-            "imageType": "jpg",
-            "imageLocation": "25435543135486434684321684"
+        "storyImage": {
+            "imageLocation": "./databaseMock/images/suojatie.png"
         }
     },
     {
         "pageType": "questionnaire",
-        "pageIndex": 2,
         "text": "Story text starts...",
-        "questionImages": {
-            "imageType": "jpg",
-            "imageLocation": "25435543135486434684321684"
-        }
+        "questionImages": [{
+            "imageLocation": "./databaseMock/images/suojatie.png"
+        }]
     },
     {
         "pageType": "story",
-        "pageIndex": 3,
         "text": "Story text starts...",
-        "storyImages": {
-            "imageType": "jpg",
-            "imageLocation": "25435543135486434684321684"
+        "storyImage": {
+            "imageLocation": "./databaseMock/images/suojatie.png"
         }
     },
     {
         "pageType": "questionnaire",
-        "pageIndex": 4,
         "text": "Story text starts...",
-        "questionImages": {
-            "imageType": "jpg",
-            "imageLocation": "25435543135486434684321684"
-        }
-    },
-    {
-        "pageType": "report"
-    }
-    ]
+        "questionImages": [{
+            "imageLocation": "./databaseMock/images/suojatie.png"
+        }]
+    }]
 }

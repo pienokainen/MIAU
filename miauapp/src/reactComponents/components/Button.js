@@ -5,7 +5,7 @@ import './styles.css';
 export default function Button(props) {
 
     const handleClick = (event) => {
-        props.OnClick();
+        props.onClick();
     }
 
     return (

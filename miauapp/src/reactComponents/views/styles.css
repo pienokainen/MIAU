@@ -1,14 +1,9 @@
 .viewWrapper {
   background-color: green;
-    margin-left: auto;
-    margin-right: auto;
-    table-layout: fixed;
-    border-collapse: collapse;
-    z-index: -1;
-    position:relative;
-}
-
-
-.globalStyles {
-
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  border-collapse: collapse;
+  z-index: -1;
+  position:relative;
 }

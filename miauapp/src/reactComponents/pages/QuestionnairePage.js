@@ -3,23 +3,29 @@ import { GetStoryItems } from "../../services";
 import Button from "../components/Button.js";
 import "./styles.css";
 
-export default function QuestionnairePage(props) {
-  const handleClick = () => {
-    // TODO: logic to handle answering
-    let onLastPage = false;
-    let correct = true;
+export default function QuestionnairePage({
+  handlePageChange,
+  pageInformation,
+}) {
+  const [isEnabled, setIsEnabled] = useState(true);
 
-    if (correct) {
+  const handleClick = (index, button) => {
+    // TODO: logic to handle answering
+
+    if (index === -1) {
+      handlePageChange();
+    }
+
+    if (index === pageInformation.correct) {
       // TODO: logic to handle positive feedback. Perhaps timeout to let person read and then continue?
 
-      if (onLastPage) {
-        props.handlePageChange("reportPage");
-        return;
-      }
-
-      // TODO: get correct data from database
-      props.handlePageChange("storyPage");
+      handlePageChange();
+      return;
     }
+
+    this.setState({
+      isEnabled: false,
+    });
 
     // TODO: logic to handle negative feedback
   };
@@ -31,29 +37,43 @@ export default function QuestionnairePage(props) {
   return (
     <div>
       <div id="wrapper">
-        <h3> New Page </h3>
+        <h3> {pageInformation.text} </h3>
         <div className="button-group">
           <Button
+            isEnabled={true}
             bgrUrl={bgrUrls[0]}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}
+            onClick={() => {
+              handleClick(0, this);
+            }}
           />
           <Button
+            isEnabled={true}
             bgrUrl={bgrUrls[1]}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}
+            onClick={() => {
+              handleClick(1, this);
+            }}
           />
           <Button
+            isEnabled={true}
             bgrUrl={bgrUrls[2]}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}
+            onClick={() => {
+              handleClick(2, this);
+            }}
           />
         </div>
       </div>
       <Button
         classPosition={"nextpage-button"}
         classStyle={"nextpage-button-style"}
-        onClick={handleClick}
+        onClick={() => {
+          handleClick(-1);
+        }}
       />
     </div>
   );

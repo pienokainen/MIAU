@@ -1,33 +1,38 @@
-import { React } from 'react';
-import './styles.css';
-
+import { React } from "react";
+import "./styles.css";
 
 export default function Button(props) {
+  const [isEnabled, setIsEnabled] = useState(true);
 
-    const handleClick = (event) => {
-        props.onClick();
+  const renderButton = () => {
+    if (props.bgrUrl !== undefined) {
+      return (
+        <button
+          style={{ backgroundImage: `url("${props.bgrUrl}")` }}
+          className={props.classStyle}
+          onClick={handleClick}
+        >
+          {props.buttonText}
+        </button>
+      );
     }
 
-    return (
-        <div className={props.classPosition}>
-        {props.bgrUrl !== undefined ?
-          /* If there is a bgrUrl prop */
-          <button
-          style={
-            {backgroundImage: `url("${props.bgrUrl}")`}
-          }
-          className={props.classStyle}
-          onClick={handleClick}>
-              {props.buttonText}
+    if (!props.isEnabled) {
+      return (
+        <overlay>
+          <button className={props.classStyle} onClick={handleClick}>
+            {props.buttonText}
           </button>
-          :
-          /* If there isn't a bgrUrlprop */
-          <button
-          className={props.classStyle}
-          onClick={handleClick}>
-              {props.buttonText}
-          </button>
-        }
+        </overlay>
+      );
+    }
 
-        </div>);
+    return <button className={props.classStyle}>{props.buttonText}</button>;
+  };
+
+  const handleClick = (event) => {
+    props.onClick();
+  };
+
+  return <div className={props.classPosition}>{renderButton()}</div>;
 }

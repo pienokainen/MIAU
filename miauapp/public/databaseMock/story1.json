@@ -11,9 +11,12 @@
     {
         "pageType": "questionnaire",
         "text": "Story text starts...",
-        "questionImages": [{
-            "imageLocation": "./databaseMock/images/suojatie.png"
-        }]
+        "correctId": 1,
+        "imageLocations": [
+            "./databaseMock/images/suojatie.png",
+            "./databaseMock/images/suojatie.png",
+            "./databaseMock/images/suojatie.png"
+        ]
     },
     {
         "pageType": "story",
@@ -25,8 +28,11 @@
     {
         "pageType": "questionnaire",
         "text": "Story text starts...",
-        "questionImages": [{
-            "imageLocation": "./databaseMock/images/suojatie.png"
-        }]
+        "correctId": 2,
+        "imageLocations": [
+            "./databaseMock/images/suojatie.png",
+            "./databaseMock/images/suojatie.png",
+            "./databaseMock/images/suojatie.png"
+        ]
     }]
 }

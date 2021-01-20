@@ -1,10 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import StoryRoute from "./reactComponents/routes/StoryRoute";
-import { UpdateStoryItems } from "./services";
-import PageRenderer from "./reactComponents/pages/index.js";
-import globalStyles from "./styles/globalStyles.css";
-import LandingPage from "./reactComponents/pages/LandingPage";
+import "./styles/globalStyles.css";
 
 function App() {
   return (
@@ -12,6 +9,7 @@ function App() {
       <div className={globalStyles}>
         <Switch>
           <Route exact path="/:storyId">
+
             <StoryRoute />
           </Route>
         </Switch>

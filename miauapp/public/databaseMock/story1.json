@@ -5,7 +5,7 @@
       "pageType": "story",
       "text": "Hei, täs-sä on e-ka-luok-ka-lai-nen Lii-sa ja hän on läh-dös-sä kou-luun. Lii-sa on par-hail-laan va-lit-se-mas-sa ul-ko-vaat-tei-taan. Voi-sit-ko aut-taa Lii-saa? ",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/suojatie.png"
+        "imageLocation": "./databaseMock/images/liisa_huoneessa.png"
       }
     },
     {
@@ -21,7 +21,7 @@
       "pageType": "story",
       "text": "Lii-sa läh-tee kä-ve-le-mään kou-luun ja al-kaa et-si-mään suo-ja-tie-kylt-ti-ä, sil-lä Lii-san tu-lee y-lit-tää tie. ",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/suojatie.png"
+        "imageLocation": "./databaseMock/images/Liisa_etsii_suojatieta.png"
       }
     },
     {
@@ -37,7 +37,7 @@
       "pageType": "story",
       "text": "Lii-sa löy-tää suo-ja-tien ja suun-nit-te-lee tien y-li-tys-tä. ",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/suojatie.png"
+        "imageLocation": "./databaseMock/images/liisa_ylittaa_tien.png"
       }
     },
     {
@@ -53,7 +53,7 @@
       "pageType": "story",
       "text": "Lii-sa on nyt y-lit-tä-nyt tien ja al-kaa poh-ti-maan, mi-kä pa-ran-tai-si hä-nen nä-ky-vyyt-tän-sä lii-ken-tees-sä?",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/suojatie.png"
+        "imageLocation": "./databaseMock/images/liisa_on_ylittanyt_tien.png"
       }
     },
     {
@@ -67,14 +67,14 @@
     },
     {
       "pageType": "story",
-      "text": "Lii-sa jat-kaa mat-kaan-sa ja huo-maa au-toi-li-joil-le tar-koi-te-tun kyl-tin ja poh-tii, mi-tä se tar-koit-taa.",
+      "text": "Lii-sa jat-kaa mat-kaan-sa ja huo-maa au-toi-li-joil-le tar-koi-te-tun py-säh-dys-mer-kin.",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/suojatie.png"
+        "imageLocation": "./databaseMock/images/liisa_ja_stop.png"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "Tie-dät-kö si-nä?  ",
+      "text": "Tie-dät-kö si-nä, mil-tä py-säh-dys-merk-ki näyt-tää?",
       "questionImages": [
         {
           "imageLocation": "./databaseMock/images/suojatie.png"
@@ -85,7 +85,7 @@
       "pageType": "story",
       "text": "Lii-sa nä-kee kyl-tin ja ei-kä tie-dä-kään, ke-nel-le se on tar-koi-tet-tu.",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/suojatie.png"
+        "imageLocation": "./databaseMock/images/liisa_ja_nopeusrajoitus.png"
       }
     },
     {
@@ -101,7 +101,7 @@
       "pageType": "story",
       "text": "Lii-sa nä-kee tu-tun kyl-tin ja tie-tää o-le-van-sa pe-ril-lä.",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/suojatie.png"
+        "imageLocation": "./databaseMock/images/liisa_koululla.png"
       }
     },
     {

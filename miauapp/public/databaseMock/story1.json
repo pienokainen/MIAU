@@ -1,38 +1,117 @@
 {
-    "maxPoints": 2,
-    "pages": [
+  "maxPoints": 2,
+  "pages": [
     {
-        "pageType": "story",
-        "text": "Story text starts...",
-        "storyImage": {
-            "imageLocation": "./databaseMock/images/suojatie.png"
+      "pageType": "story",
+      "text": "Hei, täs-sä on e-ka-luok-ka-lai-nen Lii-sa ja hän on läh-dös-sä kou-luun. Lii-sa on par-hail-laan va-lit-se-mas-sa ul-ko-vaat-tei-taan. Voi-sit-ko aut-taa Lii-saa? ",
+      "storyImage": {
+        "imageLocation": "./databaseMock/images/suojatie.png"
+      }
+    },
+    {
+      "pageType": "questionnaire",
+      "text": "Va-lit-se Lii-sal-le lii-ken-tee-seen tur-val-li-sim-mat vaat-teet. ",
+      "questionImages": [
+        {
+          "imageLocation": "./databaseMock/images/suojatie.png"
         }
+      ]
     },
     {
-        "pageType": "questionnaire",
-        "text": "Story text starts...",
-        "correctId": 1,
-        "imageLocations": [
-            "./databaseMock/images/suojatie.png",
-            "./databaseMock/images/suojatie.png",
-            "./databaseMock/images/suojatie.png"
-        ]
+      "pageType": "story",
+      "text": "Lii-sa läh-tee kä-ve-le-mään kou-luun ja al-kaa et-si-mään suo-ja-tie-kylt-ti-ä, sil-lä Lii-san tu-lee y-lit-tää tie. ",
+      "storyImage": {
+        "imageLocation": "./databaseMock/images/suojatie.png"
+      }
     },
     {
-        "pageType": "story",
-        "text": "Story text starts...",
-        "storyImage": {
-            "imageLocation": "./databaseMock/images/suojatie.png"
+      "pageType": "questionnaire",
+      "text": "Mi-kä merk-ki ku-vaa suo-ja-tie-tä? ",
+      "questionImages": [
+        {
+          "imageLocation": "./databaseMock/images/suojatie.png"
         }
+      ]
     },
     {
-        "pageType": "questionnaire",
-        "text": "Story text starts...",
-        "correctId": 2,
-        "imageLocations": [
-            "./databaseMock/images/suojatie.png",
-            "./databaseMock/images/suojatie.png",
-            "./databaseMock/images/suojatie.png"
-        ]
-    }]
+      "pageType": "story",
+      "text": "Lii-sa löy-tää suo-ja-tien ja suun-nit-te-lee tien y-li-tys-tä. ",
+      "storyImage": {
+        "imageLocation": "./databaseMock/images/suojatie.png"
+      }
+    },
+    {
+      "pageType": "questionnaire",
+      "text": "Mi-tä Lii-san tu-lee muis-taa tie-tä y-lit-tä-es-sä? ",
+      "questionImages": [
+        {
+          "imageLocation": "./databaseMock/images/suojatie.png"
+        }
+      ]
+    },
+    {
+      "pageType": "story",
+      "text": "Lii-sa on nyt y-lit-tä-nyt tien ja al-kaa poh-ti-maan, mi-kä pa-ran-tai-si hä-nen nä-ky-vyyt-tän-sä lii-ken-tees-sä?",
+      "storyImage": {
+        "imageLocation": "./databaseMock/images/suojatie.png"
+      }
+    },
+    {
+      "pageType": "questionnaire",
+      "text": "Tie-dät-kö si-nä, mi-kä pa-ran-taa Lii-san nä-ky-vyyt-tä? ",
+      "questionImages": [
+        {
+          "imageLocation": "./databaseMock/images/suojatie.png"
+        }
+      ]
+    },
+    {
+      "pageType": "story",
+      "text": "Lii-sa jat-kaa mat-kaan-sa ja huo-maa au-toi-li-joil-le tar-koi-te-tun kyl-tin ja poh-tii, mi-tä se tar-koit-taa.",
+      "storyImage": {
+        "imageLocation": "./databaseMock/images/suojatie.png"
+      }
+    },
+    {
+      "pageType": "questionnaire",
+      "text": "Tie-dät-kö si-nä?  ",
+      "questionImages": [
+        {
+          "imageLocation": "./databaseMock/images/suojatie.png"
+        }
+      ]
+    },
+    {
+      "pageType": "story",
+      "text": "Lii-sa nä-kee kyl-tin ja ei-kä tie-dä-kään, ke-nel-le se on tar-koi-tet-tu.",
+      "storyImage": {
+        "imageLocation": "./databaseMock/images/suojatie.png"
+      }
+    },
+    {
+      "pageType": "questionnaire",
+      "text": "O-saat-ko aut-taa? ",
+      "questionImages": [
+        {
+          "imageLocation": "./databaseMock/images/suojatie.png"
+        }
+      ]
+    },
+    {
+      "pageType": "story",
+      "text": "Lii-sa nä-kee tu-tun kyl-tin ja tie-tää o-le-van-sa pe-ril-lä.",
+      "storyImage": {
+        "imageLocation": "./databaseMock/images/suojatie.png"
+      }
+    },
+    {
+      "pageType": "questionnaire",
+      "text": "Mikä kyltti kertoo, että Liisa on perillä koulussa?",
+      "questionImages": [
+        {
+          "imageLocation": "./databaseMock/images/suojatie.png"
+        }
+      ]
+    }
+  ]
 }

@@ -13,12 +13,11 @@
     color:black;
     padding:1.0em 1.5em;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     outline: none;
-    font-size: 2.0em;
+    font-size: 1.5em;
     border-radius: 1.0em;
-    box-shadow: 0 0.2em #999;
+    box-shadow: 0 0.2em rgb(173, 167, 77);
 }
 
 .start-button-style:hover {
@@ -27,8 +26,8 @@
 .start-button-style:active {
     background-color: #1e641e;
     transform: translateY(0.1em);
-    box-shadow: 0 0.2em rgb(119, 119, 119);
-    color:#cdd6ce;
+    box-shadow: 0 0.2em rgb(168, 166, 52);
+    color:#b3b153;
 }
 
 .questionnaire-button {
@@ -41,12 +40,14 @@
     justify-content: center;
     text-align: center;
     display: inline-block;
+    outline: none;
 }
 
 .questionnaire-button-style {
     background-color: Transparent;
-    height: 15em;
-    width: 15em;
+    outline: none;
+    height: 7em;
+    width: 7em;
     background-size: 100%;
 }
 
@@ -58,7 +59,8 @@
 .nextpage-button-style {
     background-color: Transparent;
     background-image: url("https://img.icons8.com/plasticine/2x/circled-chevron-right.png");
-    height: 15em;
-    width: 15em;
+    height: 8em;
+    width: 8em;
     background-size: 100%;
+    border: none;
 }

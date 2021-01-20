@@ -6,14 +6,15 @@ import "./styles/globalStyles.css";
 function App() {
   return (
     <Router>
-      <div className={globalStyles}>
-        <Switch>
-          <Route exact path="/:storyId">
-
-            <StoryRoute />
-          </Route>
-        </Switch>
-      </div>
+      <body className={"bgrStyle"}>
+        <div className={"globalStyles"}>
+          <Switch>
+            <Route exact path="/:storyId">
+              <StoryRoute />
+            </Route>
+          </Switch>
+        </div>
+      </body>
     </Router>
   );
 }

@@ -1,0 +1,11 @@
+.globalStyles {
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 1.5em;
+}
+
+.bgrStyle {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color:#EBE883;
+}

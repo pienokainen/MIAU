@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../components/Button.js";
 
+
 export default function LandingPage(props) {
   const handlePageChange = (event) => {
     props.handlePageChange("storyPage");

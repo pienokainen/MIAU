@@ -36,7 +36,7 @@ function Story({ storyId }) {
   };
 
   if (visibleSection === "landing") {
-    return <LandingPage handlePageChange={handlePageChange}/>;
+    return <LandingPage handlePageChange={handlePageChange} />;
   } else if (visibleSection === "content") {
     const page = story.pages[pageNumber];
     return <PageRenderer page={page} handlePageChange={handlePageChange} />;

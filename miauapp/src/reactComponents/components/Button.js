@@ -1,38 +1,41 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./styles.css";
 
 export default function Button(props) {
-  const [isEnabled, setIsEnabled] = useState(true);
+  const [isDisabled, setIsDisabled] = useState(false);
 
-  const renderButton = () => {
-    if (props.bgrUrl !== undefined) {
-      return (
-        <button
-          style={{ backgroundImage: `url("${props.bgrUrl}")` }}
-          className={props.classStyle}
-          onClick={handleClick}
-        >
-          {props.buttonText}
-        </button>
-      );
+  useEffect(() => {
+    if (props.isDisabled === undefined) {
+      return;
     }
 
-    if (!props.isEnabled) {
-      return (
-        <overlay>
-          <button className={props.classStyle} onClick={handleClick}>
-            {props.buttonText}
-          </button>
-        </overlay>
-      );
+    setIsDisabled(props.isDisabled);
+  }, [props.isDisabled]);
+
+  const setBackgroundImage = () => {
+    if (props.bgrUrl === undefined) {
+      return;
     }
 
-    return <button className={props.classStyle}>{props.buttonText}</button>;
+    return {
+      backgroundImage: `url("${props.bgrUrl}")`,
+    };
   };
 
-  const handleClick = (event) => {
+  const handleClick = () => {
     props.onClick();
   };
 
-  return <div className={props.classPosition}>{renderButton()}</div>;
+  return (
+    <div className={props.classPosition}>
+      <button
+        style={setBackgroundImage()}
+        className={props.classStyle}
+        onClick={handleClick}
+        disabled={isDisabled}
+      >
+        {props.buttonText}
+      </button>
+    </div>
+  );
 }

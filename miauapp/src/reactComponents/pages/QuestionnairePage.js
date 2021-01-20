@@ -1,4 +1,4 @@
-import { React } from "react";
+import { React, useState } from "react";
 import Button from "../components/Button.js";
 import "./styles.css";
 
@@ -6,22 +6,38 @@ export default function QuestionnairePage({
   handlePageChange,
   pageInformation,
 }) {
-  const handleClick = (index, button) => {
-    // TODO: logic to handle answering
+  const [isDisabledButton, setIsDisabledButton] = useState({
+    buttons: {
+      0: false,
+      1: false,
+      2: false,
+    },
+  });
 
-    if (index === -1) {
+  const handleClick = (buttonIndex, button) => {
+    if (buttonIndex === -1) {
       handlePageChange();
     }
 
-    if (index === pageInformation.correct) {
+    if (buttonIndex === pageInformation.correct) {
       // TODO: logic to handle positive feedback. Perhaps timeout to let person read and then continue?
 
       handlePageChange();
       return;
     }
 
-    // TODO: logic to handle negative feedback
+    let newState = isDisabledButton;
+    newState[buttonIndex] = true;
+    setIsDisabledButton({
+      ...isDisabledButton,
+      buttons: {
+        [buttonIndex]: true,
+      },
+    });
+
+    console.log(isDisabledButton);
   };
+
   let bgrUrls = [];
   bgrUrls[0] = "./databaseMock/images/suojatie.png";
   bgrUrls[1] = "./databaseMock/images/vilperi.webp";
@@ -33,7 +49,7 @@ export default function QuestionnairePage({
         <h3> {pageInformation.text} </h3>
         <div className="button-group">
           <Button
-            isEnabled={true}
+            isDisabled={isDisabledButton.buttons[0]}
             bgrUrl={bgrUrls[0]}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}
@@ -42,7 +58,7 @@ export default function QuestionnairePage({
             }}
           />
           <Button
-            isEnabled={true}
+            isDisabled={isDisabledButton.buttons[1]}
             bgrUrl={bgrUrls[1]}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}
@@ -51,7 +67,7 @@ export default function QuestionnairePage({
             }}
           />
           <Button
-            isEnabled={true}
+            isDisabled={isDisabledButton.buttons[2]}
             bgrUrl={bgrUrls[2]}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}

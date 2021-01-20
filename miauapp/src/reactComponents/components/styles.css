@@ -1,66 +1,79 @@
 .start-button {
-    margin: 0;
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);;
-    transform: translate(-50%, -50%);
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 .start-button-style {
-    background-color: #15AC19;
-    border-style:inset;
-    border-color:#0f5013;
-    color:black;
-    padding:1.0em 1.5em;
-    text-align: center;
-    display: inline-block;
-    outline: none;
-    font-size: 1.5em;
-    border-radius: 1.0em;
-    box-shadow: 0 0.2em rgb(173, 167, 77);
+  background-color: #15ac19;
+  border-style: inset;
+  border-color: #0f5013;
+  color: black;
+  padding: 1em 1.5em;
+  text-align: center;
+  display: inline-block;
+  outline: none;
+  font-size: 1.5em;
+  border-radius: 1em;
+  box-shadow: 0 0.2em rgb(173, 167, 77);
 }
 
 .start-button-style:hover {
-    background-color: #1a8321}
+  background-color: #1a8321;
+}
 
 .start-button-style:active {
-    background-color: #1e641e;
-    transform: translateY(0.1em);
-    box-shadow: 0 0.2em rgb(168, 166, 52);
-    color:#b3b153;
+  background-color: #1e641e;
+  transform: translateY(0.1em);
+  box-shadow: 0 0.2em rgb(168, 166, 52);
+  color: #b3b153;
 }
 
 .questionnaire-button {
-    border: 1px solid green;
-    cursor: pointer;
-    float: none;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-    display: inline-block;
-    outline: none;
+  border: 1px solid green;
+  cursor: pointer;
+  float: none;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  outline: none;
 }
 
 .questionnaire-button-style {
-    background-color: Transparent;
-    outline: none;
-    height: 7em;
-    width: 7em;
-    background-size: 100%;
+  background-color: Transparent;
+  outline: none;
+  height: 7em;
+  width: 7em;
+  background-size: 100%;
 }
 
 .nextpage-button {
-    float: right;
-    justify-content: center;
+  float: right;
+  justify-content: center;
 }
 
 .nextpage-button-style {
-    background-color: Transparent;
-    background-image: url("https://img.icons8.com/plasticine/2x/circled-chevron-right.png");
-    height: 8em;
-    width: 8em;
-    background-size: 100%;
-    border: none;
+  background-color: Transparent;
+  background-image: url("https://img.icons8.com/plasticine/2x/circled-chevron-right.png");
+  height: 8em;
+  width: 8em;
+  background-size: 100%;
+  border: none;
+}
+
+.disabled-button-overlay {
+  position: relative;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  opacity: 0.5;
+  transition: opacity 0.5s;
 }

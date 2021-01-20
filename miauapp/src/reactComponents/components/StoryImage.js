@@ -4,9 +4,9 @@ import './styles.css';
 
 export default function StoryImage(props) {
 
-    let imageLocation = "./databaseMock/images/suojatie.png";
     return (
         <div class={props.classPosition}>
-            <h3> new storyImage </h3>
+            <img className={props.classStyle} 
+            src={props.image}/>
         </div>);
 }

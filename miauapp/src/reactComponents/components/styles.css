@@ -54,6 +54,8 @@
 .nextpage-button {
     float: right;
     justify-content: center;
+    margin-left: 2.0em;
+    margin-top: 2.0em;
 }
 
 .nextpage-button-style {
@@ -63,4 +65,71 @@
     width: 8em;
     background-size: 100%;
     border: none;
+}
+
+.story-image {
+    
+}
+
+.story-image-style {
+    display: block;
+    margin-right: 6.0em;
+    border-width: 1.0em;
+    width: 21em;
+    text-align: right;
+    float: left;
+    border-radius: 20%;
+    border-style: solid;
+    border-color:#2A4F73; 
+}
+
+.text-area {
+
+}
+
+.text-area-style {
+    display: block;
+    position: relative;
+    margin-left: 6.0em;
+    background-color: aliceblue;
+    width: 15em;
+    float: left;
+    text-align: left;
+    top: 2.0em;
+}
+
+.questionnaire-text-area {
+
+}
+
+.questionnaire-text-area-style {
+
+}
+
+.print-button {
+
+}
+
+.print-button-style {
+    background-color: #13B3F0;
+    border-style:inset;
+    border-color:#014966;
+    color:black;
+    outline: none;
+    font-size: 1.0em;
+    border-radius: 1.0em;
+    box-shadow: 0 0.2em rgb(173, 167, 77);
+    line-height: 4.0em;
+    width: 2.0em;
+    height: 2.0em;
+    margin-top: 0.8em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-size: 100%;
+}
+
+.stipend-image {
+    width: 60%;
+    height: 60%;
 }

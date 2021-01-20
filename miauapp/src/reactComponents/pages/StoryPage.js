@@ -13,14 +13,14 @@ export default function StoryPage({ handlePageChange, pageInformation }) {
       {/* Story text area */}
       <TextArea
         text={pageInformation.text}
-        classPosition={""}
-        classStyle={""}
+        classPosition={"text-area"}
+        classStyle={"text-area-style"}
       />
       {/* Story image */}
       <StoryImage
         image={pageInformation.storyImage.imageLocation}
-        classPosition={""}
-        classStyle={""}
+        classPosition={"story-image"}
+        classStyle={"story-image-style"}
       />
       {/* Next page button */}
       <Button

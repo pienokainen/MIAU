@@ -16,20 +16,6 @@ export default function ReportPage(props) {
       {/* Palautekenttä? */}
       {/* Stipend */}
       <Stipend classPosition={""} />
-      {/* Homebutton */}
-      <Button
-        buttonText={""}
-        classPosition={""}
-        classStyle={""}
-        onClick={handlePageChange}
-      />
-      {/* PrintButton */}
-      <Button
-        buttonText={""}
-        classPosition={""}
-        classStyle={""}
-        onClick={handlePrintView}
-      />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { React } from "react";
 import Button from "../components/Button.js";
+import TextArea from "../components/TextArea.js";
 import "./styles.css";
 
 export default function QuestionnairePage({
@@ -30,7 +31,11 @@ export default function QuestionnairePage({
   return (
     <div>
       <div id="wrapper">
-        <h3> {pageInformation.text} </h3>
+        <TextArea
+          text={pageInformation.text}
+          classPosition={"questionnaire-text-area"}
+          classStyle={"questionnaire-text-area-style"}
+        />
         <div className="button-group">
           <Button
             isEnabled={true}

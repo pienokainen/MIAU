@@ -1,11 +1,11 @@
 import React from "react";
 import Story from "../Story";
-import { useParams } from "react-router-dom";
+// import { useParams } from "react-router-dom";
 
 function StoryRoute() {
-  const params = useParams();
+  // const params = useParams();
 
-  return <Story storyId={params.storyId} />;
+  return <Story storyId={"story1"} />;
 }
 
 export default StoryRoute;

@@ -5,20 +5,20 @@ import LandingPage from "./pages/LandingPage";
 import ReportPage from "./pages/ReportPage";
 
 function Story({ storyId }) {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
   const [story, setStory] = useState(null);
   const [pageNumber, setPageNumber] = useState(0);
-  const [points, setPoints] = useState(0);
+  // const [points, setPoints] = useState(0);
   const [visibleSection, setVisibleSection] = useState("landing");
   // const [newPageInformation, setNewPageInformation] = useState({"pageType":"landing"});
 
   useEffect(() => {
     UpdateStoryItems(storyId).then((story) => {
       setStory(story);
-      setIsLoading(false);
+      // setIsLoading(false);
     });
-  }, []);
+  }, [storyId]);
 
   const handlePageChange = () => {
     if (visibleSection === "landing") {

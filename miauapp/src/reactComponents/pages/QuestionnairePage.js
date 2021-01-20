@@ -35,8 +35,6 @@ export default function QuestionnairePage({
         [buttonIndex]: true,
       },
     });
-
-    console.log(isDisabledButton);
   };
 
   let bgrUrls = [];
@@ -55,7 +53,7 @@ export default function QuestionnairePage({
         <div className="button-group">
           <Button
             isDisabled={isDisabledButton.buttons[0]}
-            bgrUrl={bgrUrls[0]}
+            bgrUrl={pageInformation.questionImages[0].alternative1}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}
             onClick={() => {
@@ -64,7 +62,7 @@ export default function QuestionnairePage({
           />
           <Button
             isDisabled={isDisabledButton.buttons[1]}
-            bgrUrl={bgrUrls[1]}
+            bgrUrl={pageInformation.questionImages[0].alternative2}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}
             onClick={() => {
@@ -73,7 +71,7 @@ export default function QuestionnairePage({
           />
           <Button
             isDisabled={isDisabledButton.buttons[2]}
-            bgrUrl={bgrUrls[2]}
+            bgrUrl={pageInformation.questionImages[0].alternative3}
             classPosition={"questionnaire-button"}
             classStyle={"questionnaire-button-style"}
             onClick={() => {

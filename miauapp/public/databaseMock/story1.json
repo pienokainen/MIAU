@@ -11,9 +11,12 @@
     {
       "pageType": "questionnaire",
       "text": "Va-lit-se Lii-sal-le lii-ken-tee-seen tur-val-li-sim-mat vaat-teet. ",
+      "correct": 1,
       "questionImages": [
         {
-          "imageLocation": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/suojatie.png",
+          "alternative2": "./databaseMock/images/keltainentakki.png",
+          "alternative3": "./databaseMock/images/vilperi.webp"
         }
       ]
     },
@@ -27,9 +30,12 @@
     {
       "pageType": "questionnaire",
       "text": "Mi-kä merk-ki ku-vaa suo-ja-tie-tä? ",
+      "correct": 0,
       "questionImages": [
         {
-          "imageLocation": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/suojatie.png",
+          "alternative2": "./databaseMock/images/nopeusrajoitus.jpg",
+          "alternative3": "./databaseMock/images/stop-merkki.jpg"
         }
       ]
     },
@@ -43,9 +49,12 @@
     {
       "pageType": "questionnaire",
       "text": "Mi-tä Lii-san tu-lee muis-taa tie-tä y-lit-tä-es-sä? ",
+      "correct": 2,
       "questionImages": [
         {
-          "imageLocation": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/liisa_vain_ylittaa.png",
+          "alternative2": "./databaseMock/images/liisa_ei_ylita.png",
+          "alternative3": "./databaseMock/images/liisa_ja_autot.png"
         }
       ]
     },
@@ -59,9 +68,12 @@
     {
       "pageType": "questionnaire",
       "text": "Tie-dät-kö si-nä, mi-kä pa-ran-taa Lii-san nä-ky-vyyt-tä? ",
+      "correct": 2,
       "questionImages": [
         {
-          "imageLocation": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/nalle.jpg",
+          "alternative2": "./databaseMock/images/vilperi.webp",
+          "alternative3": "./databaseMock/images/heijastin.jpg"
         }
       ]
     },
@@ -75,9 +87,12 @@
     {
       "pageType": "questionnaire",
       "text": "Tie-dät-kö si-nä, mil-tä py-säh-dys-merk-ki näyt-tää?",
+      "correct": 1,
       "questionImages": [
         {
-          "imageLocation": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/suojatie.png",
+          "alternative2": "./databaseMock/images/suojatie.png",
+          "alternative3": "./databaseMock/images/suojatie.png"
         }
       ]
     },
@@ -91,9 +106,12 @@
     {
       "pageType": "questionnaire",
       "text": "O-saat-ko aut-taa? ",
+      "correct": 1,
       "questionImages": [
         {
-          "imageLocation": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/suojatie.png",
+          "alternative2": "./databaseMock/images/suojatie.png",
+          "alternative3": "./databaseMock/images/suojatie.png"
         }
       ]
     },
@@ -107,9 +125,12 @@
     {
       "pageType": "questionnaire",
       "text": "Mikä kyltti kertoo, että Liisa on perillä koulussa?",
+      "correct": 1,
       "questionImages": [
         {
-          "imageLocation": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/suojatie.png",
+          "alternative2": "./databaseMock/images/suojatie.png",
+          "alternative3": "./databaseMock/images/suojatie.png"
         }
       ]
     }

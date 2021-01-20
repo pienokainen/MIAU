@@ -69,7 +69,7 @@
       "pageType": "story",
       "text": "Lii-sa jat-kaa mat-kaan-sa ja huo-maa au-toi-li-joil-le tar-koi-te-tun py-säh-dys-mer-kin.",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/liisa_ja_stop.png"
+        "imageLocation": "./databaseMock/images/liisa_ja_stop.jpg"
       }
     },
     {
@@ -85,7 +85,7 @@
       "pageType": "story",
       "text": "Lii-sa nä-kee kyl-tin ja ei-kä tie-dä-kään, ke-nel-le se on tar-koi-tet-tu.",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/liisa_ja_nopeusrajoitus.png"
+        "imageLocation": "./databaseMock/images/liisa_ja_nopeusrajoitus.jpg"
       }
     },
     {

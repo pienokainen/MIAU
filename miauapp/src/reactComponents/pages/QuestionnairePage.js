@@ -1,5 +1,4 @@
 import { React } from "react";
-import { GetStoryItems } from "../../services";
 import Button from "../components/Button.js";
 import "./styles.css";
 
@@ -7,8 +6,6 @@ export default function QuestionnairePage({
   handlePageChange,
   pageInformation,
 }) {
-  const [isEnabled, setIsEnabled] = useState(true);
-
   const handleClick = (index, button) => {
     // TODO: logic to handle answering
 
@@ -22,10 +19,6 @@ export default function QuestionnairePage({
       handlePageChange();
       return;
     }
-
-    this.setState({
-      isEnabled: false,
-    });
 
     // TODO: logic to handle negative feedback
   };

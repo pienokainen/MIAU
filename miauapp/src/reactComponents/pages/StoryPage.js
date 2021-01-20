@@ -4,8 +4,8 @@ import StoryImage from "../components/StoryImage.js";
 import Button from "../components/Button.js";
 
 export default function StoryPage({ handlePageChange, pageInformation }) {
-  const handlePageChange = (event) => {
-    props.handlePageChange();
+  const handlePageChangeEvent = (event) => {
+    handlePageChange();
   };
 
   return (
@@ -26,7 +26,7 @@ export default function StoryPage({ handlePageChange, pageInformation }) {
       <Button
         classPosition={"nextpage-button"}
         classStyle={"nextpage-button-style"}
-        onClick={handlePageChange}
+        onClick={handlePageChangeEvent}
       />
     </div>
   );

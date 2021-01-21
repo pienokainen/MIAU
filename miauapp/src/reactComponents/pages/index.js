@@ -11,7 +11,6 @@ export default function PageRenderer(props) {
           <StoryPage
             handlePageChange={props.handlePageChange}
             pageInformation={props.page}
-            points={props.points}
           />
         );
       case "questionnaire":

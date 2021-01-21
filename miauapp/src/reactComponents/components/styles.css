@@ -1,10 +1,6 @@
 .start-button {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  margin-top: 5.5em;
+  margin-left:4.5em;
 }
 .start-button-style {
   background-color: #15ac19;
@@ -170,4 +166,22 @@
 .point-text-style{
   margin-left: 44.5em;
   margin-top: -3em;
+}
+.lp-text-style {
+  display: block;
+  position: relative;
+  margin-left: 6em;
+  background-color: aliceblue;
+  width: 25em;
+  /*height: 8em;*/
+  float: left;
+  text-align: center;
+  padding: 1em;
+  margin-top: -2em;
+  padding-bottom: 2em;
+  /*font-size: 1em;*/
+  /*top: 6em;*/
+  border-color: #014966;
+  border-style: solid;
+
 }

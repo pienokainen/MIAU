@@ -20,6 +20,12 @@ function Story({ storyId }) {
     });
   }, [storyId]);
 
+  const resetGame = () => {
+    setPageNumber(0);
+    setPoints(0);
+    setVisibleSection("landing");
+  };
+
   const handlePageChange = () => {
     if (visibleSection === "landing") {
       setVisibleSection("content");
@@ -32,6 +38,10 @@ function Story({ storyId }) {
         return;
       }
       setPageNumber(pageNumber + 1);
+    }
+
+    if (visibleSection === "report") {
+      resetGame();
     }
   };
 

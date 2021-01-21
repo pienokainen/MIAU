@@ -11,7 +11,7 @@ export default function LandingPage(props) {
   return (
     <div id="rapper">
       <TextArea
-        text={"jotain"}
+        text={"Hei, ter-ve-tu-loa Ko-a-lan Lii-ken-ne-tes-tiin. A-loi-ta tes-ti pai-na-mal-la nap-pu-laa!"}
         classPosition={"text-area"}
         classStyle={"lp-text-style"}
       />

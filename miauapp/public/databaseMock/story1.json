@@ -12,13 +12,16 @@
       "pageType": "questionnaire",
       "text": "Va-lit-se Lii-sal-le lii-ken-tee-seen tur-val-li-sim-mat vaat-teet. ",
       "correct": 1,
-      "questionImages": [
-        {
-          "alternative1": "./databaseMock/images/harmaatakki.jpg",
-          "alternative2": "./databaseMock/images/punainentakki.jpg",
-          "alternative3": "./databaseMock/images/harmaatakki2.jpg"
-        }
-      ]
+      "questionImages": {
+        "alternative1": "./databaseMock/images/harmaatakki.jpg",
+        "alternative2": "./databaseMock/images/punainentakki.jpg",
+        "alternative3": "./databaseMock/images/harmaatakki2.jpg"
+      },
+      "feedback": {
+        "alternative1": "Feedback ... ...",
+        "alternative2": "Feedback ... ...",
+        "alternative3": "Feedback ... ..."
+      }
     },
     {
       "pageType": "story",
@@ -31,13 +34,16 @@
       "pageType": "questionnaire",
       "text": "Mi-kä merk-ki ku-vaa suo-ja-tie-tä? ",
       "correct": 0,
-      "questionImages": [
-        {
-          "alternative1": "./databaseMock/images/suojatie.png",
-          "alternative2": "./databaseMock/images/etuajo-oikeus.jpg",
-          "alternative3": "./databaseMock/images/parkkipaikat.jpg"
-        }
-      ]
+      "questionImages": {
+        "alternative1": "./databaseMock/images/suojatie.png",
+        "alternative2": "./databaseMock/images/etuajo-oikeus.jpg",
+        "alternative3": "./databaseMock/images/parkkipaikat.jpg"
+      },
+      "feedback": {
+        "alternative1": "Feedback ... ...",
+        "alternative2": "Feedback ... ...",
+        "alternative3": "Feedback ... ..."
+      }
     },
     {
       "pageType": "story",
@@ -50,13 +56,16 @@
       "pageType": "questionnaire",
       "text": "Mi-tä Lii-san tu-lee muis-taa tie-tä y-lit-tä-es-sä? ",
       "correct": 2,
-      "questionImages": [
-        {
-          "alternative1": "./databaseMock/images/liisa_vain_ylittaa.png",
-          "alternative2": "./databaseMock/images/liisa_ei_ylita.png",
-          "alternative3": "./databaseMock/images/liisa_ja_autot.png"
-        }
-      ]
+      "questionImages": {
+        "alternative1": "./databaseMock/images/liisa_vain_ylittaa.png",
+        "alternative2": "./databaseMock/images/liisa_ei_ylita.png",
+        "alternative3": "./databaseMock/images/liisa_ja_autot.png"
+      },
+      "feedback": {
+        "alternative1": "Feedback ... ...",
+        "alternative2": "Feedback ... ...",
+        "alternative3": "Feedback ... ..."
+      }
     },
     {
       "pageType": "story",
@@ -69,13 +78,16 @@
       "pageType": "questionnaire",
       "text": "Tie-dät-kö si-nä, mi-kä pa-ran-taa Lii-san nä-ky-vyyt-tä? ",
       "correct": 2,
-      "questionImages": [
-        {
-          "alternative1": "./databaseMock/images/nalle.jpg",
-          "alternative2": "./databaseMock/images/puhelin1.png",
-          "alternative3": "./databaseMock/images/heijastinliivi.jpg"
-        }
-      ]
+      "questionImages": {
+        "alternative1": "./databaseMock/images/nalle.jpg",
+        "alternative2": "./databaseMock/images/puhelin1.png",
+        "alternative3": "./databaseMock/images/heijastinliivi.jpg"
+      },
+      "feedback": {
+        "alternative1": "Feedback ... ...",
+        "alternative2": "Feedback ... ...",
+        "alternative3": "Feedback ... ..."
+      }
     },
     {
       "pageType": "story",
@@ -88,13 +100,16 @@
       "pageType": "questionnaire",
       "text": "Tie-dät-kö si-nä, mil-tä py-säh-dys-merk-ki näyt-tää?",
       "correct": 0,
-      "questionImages": [
-        {
-          "alternative1": "./databaseMock/images/stop-merkki.jpg",
-          "alternative2": "./databaseMock/images/kielletty_ajosuunta.jpg",
-          "alternative3": "./databaseMock/images/tasoristeys.jpg"
-        }
-      ]
+      "questionImages": {
+        "alternative1": "./databaseMock/images/stop-merkki.jpg",
+        "alternative2": "./databaseMock/images/kielletty_ajosuunta.jpg",
+        "alternative3": "./databaseMock/images/tasoristeys.jpg"
+      },
+      "feedback": {
+        "alternative1": "Feedback ... ...",
+        "alternative2": "Feedback ... ...",
+        "alternative3": "Feedback ... ..."
+      }
     },
     {
       "pageType": "story",
@@ -107,13 +122,16 @@
       "pageType": "questionnaire",
       "text": "O-saat-ko aut-taa? ",
       "correct": 1,
-      "questionImages": [
-        {
-          "alternative1": "./databaseMock/images/pyörä.png",
-          "alternative2": "./databaseMock/images/automobiili.png",
-          "alternative3": "./databaseMock/images/kävelijä.png"
-        }
-      ]
+      "questionImages": {
+        "alternative1": "./databaseMock/images/pyörä.png",
+        "alternative2": "./databaseMock/images/automobiili.png",
+        "alternative3": "./databaseMock/images/kävelijä.png"
+      },
+      "feedback": {
+        "alternative1": "",
+        "alternative2": "",
+        "alternative3": ""
+      }
     },
     {
       "pageType": "story",
@@ -126,13 +144,16 @@
       "pageType": "questionnaire",
       "text": "Mi-kä kylt-ti ker-too, et-tä Lii-sa on pe-ril-lä kou-lus-sa?",
       "correct": 0,
-      "questionImages": [
-        {
-          "alternative1": "./databaseMock/images/paikkakyltti.jpg",
-          "alternative2": "./databaseMock/images/keskusta.jpg",
-          "alternative3": "./databaseMock/images/kantatie.jpg"
-        }
-      ]
+      "questionImages": {
+        "alternative1": "./databaseMock/images/paikkakyltti.jpg",
+        "alternative2": "./databaseMock/images/keskusta.jpg",
+        "alternative3": "./databaseMock/images/kantatie.jpg"
+      },
+      "feedback": {
+        "alternative1": "",
+        "alternative2": "",
+        "alternative3": ""
+      }
     }
   ]
 }

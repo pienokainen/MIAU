@@ -9,7 +9,7 @@ function Story({ storyId }) {
 
   const [story, setStory] = useState(null);
   const [pageNumber, setPageNumber] = useState(0);
-  // const [points, setPoints] = useState(0);
+  const [points, setPoints] = useState(0);
   const [visibleSection, setVisibleSection] = useState("landing");
   // const [newPageInformation, setNewPageInformation] = useState({"pageType":"landing"});
 
@@ -39,7 +39,14 @@ function Story({ storyId }) {
     return <LandingPage handlePageChange={handlePageChange} />;
   } else if (visibleSection === "content") {
     const page = story.pages[pageNumber];
-    return <PageRenderer page={page} handlePageChange={handlePageChange} />;
+    return (
+      <PageRenderer
+        page={page}
+        handlePageChange={handlePageChange}
+        points={points}
+        setPoints={setPoints}
+      />
+    );
   } else if (visibleSection === "report") {
     return <ReportPage />;
   }

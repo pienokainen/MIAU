@@ -52,6 +52,16 @@
   background-size: 100%;
 }
 
+.questionnaire-button-style:disabled {
+  background-color: transparent;
+  filter: grayscale(1);
+  filter: opacity(0.5);
+  outline: none;
+  height: 7em;
+  width: 7em;
+  background-size: 100%;
+}
+
 .nextpage-button {
   float: left;
   justify-content: center;

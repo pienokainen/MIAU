@@ -127,7 +127,6 @@ export default function QuestionnairePage({
         )}
         {showNextPageButton ? (
           <Button
-            classPosition={"nextpage-button"}
             classStyle={"nextpage-button-style"}
             onClick={handleNewPage}
           />

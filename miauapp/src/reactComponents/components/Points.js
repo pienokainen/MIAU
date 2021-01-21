@@ -13,9 +13,9 @@ export default function Points(props) {
     if (amount <= 2) {
       setPointsImagePath("./databaseMock/images/kolikko1.png");
     } else if (amount <= 5) {
-      setPointsImagePath("./databaseMock/images/kolikko2.png");
+      setPointsImagePath("./databaseMock/images/kolikkokasa.png");
     } else {
-      setPointsImagePath("./databaseMock/images/kolikko3.png");
+      setPointsImagePath("./databaseMock/images/kolikot.png");
     }
   };
 

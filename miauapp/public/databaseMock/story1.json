@@ -10,7 +10,7 @@
     },
     {
       "pageType": "questionnaire",
-      "text": "Va-lit-se Lii-sal-le lii-ken-tee-seen tur-val-li-sim-mat vaat-teet. ",
+      "text": "Va-lit-se Lii-sal-le lii-ken-tee-seen tur-val-li-sim-mat vaat-teet. Pai-na oi-ke-aa ku-vaa.",
       "correct": 1,
       "questionImages": [
         {
@@ -29,7 +29,7 @@
     },
     {
       "pageType": "questionnaire",
-      "text": "Mi-kä merk-ki ku-vaa suo-ja-tie-tä? ",
+      "text": "Mi-kä merk-ki ku-vaa suo-ja-tie-tä? Pai-na oi-ke-aa ku-vaa.",
       "correct": 0,
       "questionImages": [
         {
@@ -105,7 +105,7 @@
     },
     {
       "pageType": "questionnaire",
-      "text": "O-saat-ko aut-taa? ",
+      "text": "O-saat-ko ker-to-a ke-nel-le no-peus-ra-joi-tus on tar-koi-tet-tu? ",
       "correct": 1,
       "questionImages": [
         {

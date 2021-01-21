@@ -4,3 +4,11 @@
     margin: 0 auto;
     text-align: center;
 }
+
+#rapper {
+    /* background-color: green; */
+    width: 35em;
+    margin-top: 3em;
+    margin-left: 2em;
+    text-align: center;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import QuestionnairePage from "./QuestionnairePage.js";
 import StoryPage from "./StoryPage.js";
+import Points from "../components/Points";
 
 export default function PageRenderer(props) {
   const renderPage = () => {
@@ -27,5 +28,14 @@ export default function PageRenderer(props) {
     }
   };
 
-  return <div>{renderPage()}</div>;
+  return (
+    <div>
+      <Points
+        classPosition={"point-image"}
+        classStyle={"points-style"}
+        points={props.points}
+      />
+      {renderPage()}
+    </div>
+  );
 }

@@ -2,7 +2,6 @@
 export async function UpdateStoryItems(id) {
   const newUrl = `./databaseMock/${id}.json`;
   const result = await HttpRequest(newUrl);
-
   return result;
 }
 

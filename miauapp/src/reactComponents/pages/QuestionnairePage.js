@@ -1,7 +1,5 @@
-import { getDefaultNormalizer, waitFor } from "@testing-library/react";
 import { React, useState } from "react";
 import Button from "../components/Button.js";
-import Points from "../components/Points.js";
 import TextArea from "../components/TextArea.js";
 import "./styles.css";
 
@@ -44,7 +42,7 @@ export default function QuestionnairePage({
   const answerSuccess = () => {
     setTimeout(function () {
       setShowNextPageButton(true);
-    }, 4000);
+    }, 2500);
   };
 
   const updateFeedback = (buttonIndex) => {
@@ -82,11 +80,6 @@ export default function QuestionnairePage({
 
   return (
     <div>
-      <Points
-        classPosition={"point-image"}
-        classStyle={"points-style"}
-        points={points}
-      />
       <div id="wrapper">
         <TextArea
           text={pageInformation.text}

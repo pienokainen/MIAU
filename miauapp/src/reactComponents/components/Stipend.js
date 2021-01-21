@@ -1,6 +1,5 @@
 import { React } from "react";
 import "./styles.css";
-import Button from "./Button";
 
 export default function Stipend(props) {
   return (

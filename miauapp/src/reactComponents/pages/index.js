@@ -2,21 +2,24 @@ import React from "react";
 import QuestionnairePage from "./QuestionnairePage.js";
 import StoryPage from "./StoryPage.js";
 
-export default function PageRenderer({ page, handlePageChange }) {
+export default function PageRenderer(props) {
   const renderPage = () => {
-    switch (page.pageType) {
+    switch (props.page.pageType) {
       case "story":
         return (
           <StoryPage
-            handlePageChange={handlePageChange}
-            pageInformation={page}
+            handlePageChange={props.handlePageChange}
+            pageInformation={props.page}
+            points={props.points}
           />
         );
       case "questionnaire":
         return (
           <QuestionnairePage
-            handlePageChange={handlePageChange}
-            pageInformation={page}
+            handlePageChange={props.handlePageChange}
+            pageInformation={props.page}
+            points={props.points}
+            setPoints={props.setPoints}
           />
         );
       default:

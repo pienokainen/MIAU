@@ -3,7 +3,11 @@ import TextArea from "../components/TextArea.js";
 import StoryImage from "../components/StoryImage.js";
 import Button from "../components/Button.js";
 
-export default function StoryPage({ handlePageChange, pageInformation }) {
+export default function StoryPage({
+  handlePageChange,
+  pageInformation,
+  points,
+}) {
   const handlePageChangeEvent = (event) => {
     handlePageChange();
   };

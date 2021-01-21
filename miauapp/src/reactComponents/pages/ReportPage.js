@@ -25,7 +25,7 @@ export default function ReportPage(props) {
         bgrUrl={
           "https://cdn0.iconfinder.com/data/icons/print-7/24/Print_Button_printer-512.png"
         }
-        classPosition={"print-button"}
+        classPosition={"position-top-right"}
         classStyle={"print-button-style"}
         onClick={handlePrint}
       />

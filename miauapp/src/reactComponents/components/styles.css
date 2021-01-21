@@ -40,6 +40,24 @@
   outline: none;
 }
 
+.questionnaire-text-area-style {
+  display: block;
+  position: relative;
+  margin-left: 8em;
+  background-color: aliceblue;
+  width: 23em;
+  /*height: 8em;*/
+  float: left;
+  text-align: center;
+  padding: 1.0em;
+  margin-top: 1.0em;
+  padding-bottom: 1.0em;
+  /*font-size: 1em;*/
+  /*top: 6em;*/
+  border-color: #014966;
+  border-style: solid;
+}
+
 .questionnaire-button-style {
   background-color: Transparent;
   outline: none;
@@ -67,11 +85,12 @@
 
 .nextpage-button-style {
   background-color: Transparent;
-  background-image: url("https://img.icons8.com/plasticine/2x/circled-chevron-right.png");
   height: 8em;
   width: 8em;
   background-size: 100%;
-  border: none;
+  border-radius: 3.9em;
+  border-style: inset;
+  border-color: #13B3F0;
 }
 
 .disabled-button-overlay {

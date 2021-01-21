@@ -24,6 +24,7 @@ export default function StoryPage({ handlePageChange, pageInformation }) {
       />
       {/* Next page button */}
       <Button
+        bgrUrl={"./databaseMock/images/next-page-button.png"}
         classPosition={"nextpage-button"}
         classStyle={"nextpage-button-style"}
         onClick={handlePageChangeEvent}

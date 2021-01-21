@@ -119,13 +119,14 @@ export default function QuestionnairePage({
           <TextArea
             text={feedbackMessage}
             classPosition={"feedback-text-area"}
-            classStyle={"feedback-text-area-style"}
+            classStyle={"questionnaire-text-area-style"}
           />
         ) : (
           <div />
         )}
         {showNextPageButton ? (
           <Button
+            bgrUrl={"./databaseMock/images/next-page-button.png"}
             classStyle={"nextpage-button-style"}
             onClick={handleNewPage}
           />

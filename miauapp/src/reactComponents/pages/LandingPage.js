@@ -11,7 +11,7 @@ export default function LandingPage(props) {
   return (
     <div id="rapper">
       <TextArea
-        text={"jotain"}
+        text={"Hei, ter-ve-tu-loa Ko-a-lan Lii-ken-ne-tes-tiin. A-loi-ta tes-ti pai-na-mal-la nap-pu-laa!"}
         classPosition={"text-area"}
         classStyle={"lp-text-style"}
       />
@@ -22,7 +22,7 @@ export default function LandingPage(props) {
         onClick={handlePageChange}
       />
        <StoryImage
-        image={"https://images.dailyhive.com/20200128075554/tacobell.jpeg"}
+        image={"./databaseMock/images/logo.jpeg"}
         classPosition={"story-image"}
         classStyle={"story-image-style"}
       />

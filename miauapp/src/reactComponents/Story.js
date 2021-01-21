@@ -33,6 +33,10 @@ function Story({ storyId }) {
       }
       setPageNumber(pageNumber + 1);
     }
+
+    if (visibleSection === "report") {
+      setVisibleSection("landing");
+    }
   };
 
   if (visibleSection === "landing") {
@@ -48,7 +52,7 @@ function Story({ storyId }) {
       />
     );
   } else if (visibleSection === "report") {
-    return <ReportPage />;
+    return <ReportPage handlePageChange={handlePageChange} points={points} />;
   }
 
   return null;

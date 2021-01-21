@@ -14,9 +14,9 @@
       "correct": 1,
       "questionImages": [
         {
-          "alternative1": "./databaseMock/images/suojatie.png",
-          "alternative2": "./databaseMock/images/keltainentakki.png",
-          "alternative3": "./databaseMock/images/vilperi.webp"
+          "alternative1": "./databaseMock/images/harmaatakki.jpg",
+          "alternative2": "./databaseMock/images/punainentakki.png",
+          "alternative3": "./databaseMock/images/harmaatakki2.jpg"
         }
       ]
     },
@@ -34,8 +34,8 @@
       "questionImages": [
         {
           "alternative1": "./databaseMock/images/suojatie.png",
-          "alternative2": "./databaseMock/images/nopeusrajoitus.jpg",
-          "alternative3": "./databaseMock/images/stop-merkki.jpg"
+          "alternative2": "./databaseMock/images/etuajo-oikeus.jpg",
+          "alternative3": "./databaseMock/images/parkkipaikat.jpg"
         }
       ]
     },
@@ -72,8 +72,8 @@
       "questionImages": [
         {
           "alternative1": "./databaseMock/images/nalle.jpg",
-          "alternative2": "./databaseMock/images/vilperi.webp",
-          "alternative3": "./databaseMock/images/heijastin.jpg"
+          "alternative2": "./databaseMock/images/puhelin1.png",
+          "alternative3": "./databaseMock/images/heijastinliivi.jpg"
         }
       ]
     },
@@ -87,12 +87,12 @@
     {
       "pageType": "questionnaire",
       "text": "Tie-dät-kö si-nä, mil-tä py-säh-dys-merk-ki näyt-tää?",
-      "correct": 1,
+      "correct": 0,
       "questionImages": [
         {
-          "alternative1": "./databaseMock/images/suojatie.png",
-          "alternative2": "./databaseMock/images/suojatie.png",
-          "alternative3": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/stop-merkki.jpg",
+          "alternative2": "./databaseMock/images/kielletty_ajosuunta.jpg",
+          "alternative3": "./databaseMock/images/tasoristeys.jpg"
         }
       ]
     },
@@ -109,9 +109,9 @@
       "correct": 1,
       "questionImages": [
         {
-          "alternative1": "./databaseMock/images/suojatie.png",
-          "alternative2": "./databaseMock/images/suojatie.png",
-          "alternative3": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/pyörä.png",
+          "alternative2": "./databaseMock/images/automobiili.png",
+          "alternative3": "./databaseMock/images/kävelijä.png"
         }
       ]
     },
@@ -125,12 +125,12 @@
     {
       "pageType": "questionnaire",
       "text": "Mikä kyltti kertoo, että Liisa on perillä koulussa?",
-      "correct": 1,
+      "correct": 0,
       "questionImages": [
         {
-          "alternative1": "./databaseMock/images/suojatie.png",
-          "alternative2": "./databaseMock/images/suojatie.png",
-          "alternative3": "./databaseMock/images/suojatie.png"
+          "alternative1": "./databaseMock/images/paikkakyltti.jpg",
+          "alternative2": "./databaseMock/images/keskusta.jpg",
+          "alternative3": "./databaseMock/images/kantatie.jpg"
         }
       ]
     }

@@ -116,25 +116,25 @@ export default function QuestionnairePage({
             }}
           />
         </div>
+        {showFeedback ? (
+          <TextArea
+            text={feedbackMessage}
+            classPosition={"feedback-text-area"}
+            classStyle={"feedback-text-area-style"}
+          />
+        ) : (
+          <div />
+        )}
+        {showNextPageButton ? (
+          <Button
+            classPosition={"nextpage-button"}
+            classStyle={"nextpage-button-style"}
+            onClick={handleNewPage}
+          />
+        ) : (
+          <div />
+        )}
       </div>
-      {showFeedback ? (
-        <TextArea
-          text={feedbackMessage}
-          classPosition={"feedback-text-area"}
-          classStyle={"feedback-text-area-style"}
-        />
-      ) : (
-        <div />
-      )}
-      {showNextPageButton ? (
-        <Button
-          classPosition={"nextpage-button"}
-          classStyle={"nextpage-button-style"}
-          onClick={handleNewPage}
-        />
-      ) : (
-        <div />
-      )}
     </div>
   );
 }

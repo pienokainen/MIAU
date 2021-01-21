@@ -139,6 +139,10 @@
 }
 
 .print-button {
+  margin-top: 0.8em;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .print-button-style {
@@ -153,14 +157,19 @@
   line-height: 4em;
   width: 2em;
   height: 2em;
-  margin-top: 0.8em;
-  position: absolute;
-  top: 0;
-  right: 0;
   background-size: 100%;
+
 }
 
 .stipend-image {
   width: 60%;
   height: 60%;
+}
+
+.home-button{
+  margin-top: 0.8em;
+  position: absolute;
+  top: 0;
+  margin-left:39.9em;
+
 }

@@ -9,25 +9,26 @@ export default function StoryPage({ handlePageChange, pageInformation }) {
   };
 
   return (
-      <div>
-        {/* Story text area */}
-        <TextArea
-          text={pageInformation.text}
-          classPosition={"text-area"}
-          classStyle={"text-area-style"}
-        />
-        {/* Story image */}
-        <StoryImage
-          image={pageInformation.storyImage.imageLocation}
-          classPosition={"story-image"}
-          classStyle={"story-image-style"}
-        />
-        {/* Next page button */}
-        <Button
-          classPosition={"nextpage-button"}
-          classStyle={"nextpage-button-style"}
-          onClick={handlePageChangeEvent}
-        />
+    <div>
+      {/* Story text area */}
+      <TextArea
+        text={pageInformation.text}
+        classPosition={"text-area"}
+        classStyle={"text-area-style"}
+      />
+      {/* Story image */}
+      <StoryImage
+        image={pageInformation.storyImage.imageLocation}
+        classPosition={"story-image"}
+        classStyle={"story-image-style"}
+      />
+      {/* Next page button */}
+      <Button
+        bgrUrl={"./databaseMock/images/next-page-button.png"}
+        classPosition={"nextpage-button"}
+        classStyle={"nextpage-button-style"}
+        onClick={handlePageChangeEvent}
+      />
     </div>
   );
 }

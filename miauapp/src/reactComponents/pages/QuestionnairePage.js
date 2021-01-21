@@ -6,6 +6,8 @@ import "./styles.css";
 export default function QuestionnairePage({
   handlePageChange,
   pageInformation,
+  points,
+  setPoints,
 }) {
   const [isDisabledButton, setIsDisabledButton] = useState({
     buttons: {
@@ -21,8 +23,8 @@ export default function QuestionnairePage({
     }
 
     if (buttonIndex === pageInformation.correct) {
-      // TODO: logic to handle positive feedback. Perhaps timeout to let person read and then continue?
-
+      // TODO: logic to handle positive feedback.
+      setPoints(points + 1);
       handlePageChange();
       return;
     }

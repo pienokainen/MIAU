@@ -15,7 +15,7 @@
       "questionImages": [
         {
           "alternative1": "./databaseMock/images/harmaatakki.jpg",
-          "alternative2": "./databaseMock/images/punainentakki.png",
+          "alternative2": "./databaseMock/images/punainentakki.jpg",
           "alternative3": "./databaseMock/images/harmaatakki2.jpg"
         }
       ]

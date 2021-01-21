@@ -43,7 +43,7 @@ export default function QuestionnairePage({
   return (
     <div>
       <Points
-        classPosition={"position-top-right"}
+        classPosition={"point-image"}
         classStyle={"points-style"}
         points={points}
       />

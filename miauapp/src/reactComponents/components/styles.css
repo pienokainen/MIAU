@@ -113,8 +113,8 @@
   /*height: 8em;*/
   float: left;
   text-align: center;
-  padding: 0.5em;
-  margin-top: 1.5em;
+  padding: 1em;
+  margin-top: -2em;
   padding-bottom: 2em;
   /*font-size: 1em;*/
   /*top: 6em;*/
@@ -153,9 +153,21 @@
   margin-top: 0.8em;
   position: absolute;
   top: 0;
-  margin-left: 39.9em;
+  right:2.26em;
 }
 
 .points-style {
   background-color: Transparent;
+  width: 4em;
+  
+}
+.point-image{
+  margin-left: 38em;
+  margin-top: 0.5em;
+}
+
+
+.point-text-style{
+  margin-left: 44.5em;
+  margin-top: -3em;
 }

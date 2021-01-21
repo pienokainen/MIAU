@@ -17,7 +17,7 @@ export default function StoryPage({
     <div>
       {/* Points area */}
       <Points
-        classPosition={"position-top-right"}
+        classPosition={"point-image"}
         classStyle={"points-style"}
         points={points}
       />

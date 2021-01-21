@@ -21,6 +21,7 @@ export default function QuestionnairePage({
 
   const [showFeedback, setShowFeedback] = useState(false);
   const [showNextPageButton, setShowNextPageButton] = useState(false);
+  const [pointsSet, setPointsSet] = useState(false);
   const [feedbackMessage, setFeedbackMessage] = useState("NONE");
 
   const getFeedbackText = (alternativeIndex) => {
@@ -52,9 +53,14 @@ export default function QuestionnairePage({
   };
 
   const handleAnswerClick = (buttonIndex) => {
+    if (pointsSet) {
+      return;
+    }
+
     if (buttonIndex === pageInformation.correct) {
       updateFeedback(3);
       setPoints(points + 1);
+      setPointsSet(true);
       answerSuccess();
       return;
     }

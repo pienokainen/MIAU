@@ -24,7 +24,7 @@ export default function LandingPage(props) {
        <StoryImage
         image={"./databaseMock/images/logo.jpeg"}
         classPosition={"story-image"}
-        classStyle={"story-image-style"}
+        classStyle={"lp-image-style"}
       />
     </div>
   );

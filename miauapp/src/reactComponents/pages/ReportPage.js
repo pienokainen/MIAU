@@ -18,9 +18,12 @@ export default function ReportPage(props) {
   };
   return (
     <div>
+      <div id="wrapper">
       {/* Palautekenttä? */}
       {/* Stipend */}
       <Stipend classPosition={""} />
+      
+      </div>
       <Button
         bgrUrl={
           "https://static.thenounproject.com/png/1150993-200.png"

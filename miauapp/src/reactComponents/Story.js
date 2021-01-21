@@ -48,7 +48,7 @@ function Story({ storyId }) {
       />
     );
   } else if (visibleSection === "report") {
-    return <ReportPage />;
+    return <ReportPage handlePageChange={handlePageChange} points={points} />;
   }
 
   return null;

@@ -22,7 +22,7 @@ export default function LandingPage(props) {
         onClick={handlePageChange}
       />
        <StoryImage
-        image={"https://images.dailyhive.com/20200128075554/tacobell.jpeg"}
+        image={"./databaseMock/images/logo.jpeg"}
         classPosition={"story-image"}
         classStyle={"story-image-style"}
       />

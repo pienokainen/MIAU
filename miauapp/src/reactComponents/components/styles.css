@@ -90,9 +90,6 @@
   transition: opacity 0.5s;
 }
 
-.story-image {
-}
-
 .story-image-style {
   display: block;
   margin-left: 6em;
@@ -105,11 +102,6 @@
   /*border-radius: 2em;*/
   border-style: solid;
   /*border-color: #2a4f73;*/
-  
-  
-}
-
-.text-area {
 }
 
 .text-area-style {
@@ -121,23 +113,16 @@
   /*height: 8em;*/
   float: left;
   text-align: center;
-  padding:0.5em ;
+  padding: 0.5em;
   margin-top: 1.5em;
   padding-bottom: 2em;
   /*font-size: 1em;*/
   /*top: 6em;*/
   border-color: #014966;
   border-style: solid;
-  
 }
 
-.questionnaire-text-area {
-}
-
-.questionnaire-text-area-style {
-}
-
-.print-button {
+.position-top-right {
   margin-top: 0.8em;
   position: absolute;
   top: 0;
@@ -157,7 +142,6 @@
   width: 2em;
   height: 2em;
   background-size: 100%;
-
 }
 
 .stipend-image {
@@ -165,10 +149,13 @@
   height: 60%;
 }
 
-.home-button{
+.home-button {
   margin-top: 0.8em;
   position: absolute;
   top: 0;
-  margin-left:39.9em;
+  margin-left: 39.9em;
+}
 
+.points-style {
+  background-color: Transparent;
 }

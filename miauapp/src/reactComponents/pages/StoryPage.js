@@ -2,6 +2,7 @@ import { React } from "react";
 import TextArea from "../components/TextArea.js";
 import StoryImage from "../components/StoryImage.js";
 import Button from "../components/Button.js";
+import Points from "../components/Points.js";
 
 export default function StoryPage({
   handlePageChange,
@@ -14,6 +15,12 @@ export default function StoryPage({
 
   return (
     <div>
+      {/* Points area */}
+      <Points
+        classPosition={"position-top-right"}
+        classStyle={"points-style"}
+        points={points}
+      />
       {/* Story text area */}
       <TextArea
         text={pageInformation.text}

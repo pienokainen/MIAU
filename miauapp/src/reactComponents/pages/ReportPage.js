@@ -23,15 +23,15 @@ export default function ReportPage(props) {
       <Stipend classPosition={""} />
       <Button
         bgrUrl={
-          "https://cdn0.iconfinder.com/data/icons/print-7/24/Print_Button_printer-512.png"
+          "https://static.thenounproject.com/png/1150993-200.png"
         }
-        classPosition={"print-button"}
+        classPosition={"position-top-right"}
         classStyle={"print-button-style"}
         onClick={handlePrint}
       />
       <Button
         bgrUrl={
-          "https://cdn0.iconfinder.com/data/icons/print-7/24/Print_Button_printer-512.png"
+          "https://static.thenounproject.com/png/890787-200.png"
         }
         classPosition={"home-button"}
         classStyle={"print-button-style"}

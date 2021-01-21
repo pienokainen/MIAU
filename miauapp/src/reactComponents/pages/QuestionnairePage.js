@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import Button from "../components/Button.js";
+import Points from "../components/Points.js";
 import TextArea from "../components/TextArea.js";
 import "./styles.css";
 
@@ -17,7 +18,7 @@ export default function QuestionnairePage({
     },
   });
 
-  const handleClick = (buttonIndex, button) => {
+  const handleClick = (buttonIndex) => {
     if (buttonIndex === -1) {
       handlePageChange();
     }
@@ -39,13 +40,13 @@ export default function QuestionnairePage({
     });
   };
 
-  let bgrUrls = [];
-  bgrUrls[0] = "./databaseMock/images/suojatie.png";
-  bgrUrls[1] = "./databaseMock/images/vilperi.webp";
-  bgrUrls[2] = "./databaseMock/images/stop.png";
-
   return (
     <div>
+      <Points
+        classPosition={"position-top-right"}
+        classStyle={"points-style"}
+        points={points}
+      />
       <div id="wrapper">
         <TextArea
           text={pageInformation.text}
@@ -82,6 +83,11 @@ export default function QuestionnairePage({
           />
         </div>
       </div>
+      <TextArea
+        text={pageInformation.text}
+        classPosition={"questionnaire-text-area"}
+        classStyle={"questionnaire-text-area-style"}
+      />
       <Button
         classPosition={"nextpage-button"}
         classStyle={"nextpage-button-style"}

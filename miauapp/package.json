@@ -2,11 +2,16 @@
   "name": "miauapp",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
+    "express": "^4.17.1",
+    "node": "^15.10.0",
     "normalize.css": "^8.0.1",
+    "open-cli": "^6.0.1",
+    "path": "^0.12.7",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
@@ -14,6 +19,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "express": "open-cli http://localhost:8000 && node src/express",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

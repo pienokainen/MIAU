@@ -7,7 +7,7 @@ function App() {
   return (
     <Router>
       <div className={"bgrStyle"}>
-        <div className={"globalStyles"}>
+        <div>
           <Switch>
             <Route exact path="/">
               <StoryRoute />

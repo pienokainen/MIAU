@@ -36,8 +36,8 @@
       "correct": 0,
       "questionImages": {
         "alternative1": "./databaseMock/images/suojatie.png",
-        "alternative2": "./databaseMock/images/etuajo-oikeus.jpg",
-        "alternative3": "./databaseMock/images/parkkipaikat.jpg"
+        "alternative2": "./databaseMock/images/parkkipaikat.jpg",
+        "alternative3": "./databaseMock/images/reitti_ilman_portaita.jpg"
       },
       "feedback": {
         "alternative1": "Feedback ... ...",
@@ -103,7 +103,7 @@
       "questionImages": {
         "alternative1": "./databaseMock/images/stop-merkki.jpg",
         "alternative2": "./databaseMock/images/kielletty_ajosuunta.jpg",
-        "alternative3": "./databaseMock/images/tasoristeys.jpg"
+        "alternative3": "./databaseMock/images/ajoneuvot_kielletty.jpg"
       },
       "feedback": {
         "alternative1": "Feedback ... ...",
@@ -146,8 +146,8 @@
       "correct": 0,
       "questionImages": {
         "alternative1": "./databaseMock/images/paikkakyltti.jpg",
-        "alternative2": "./databaseMock/images/keskusta.jpg",
-        "alternative3": "./databaseMock/images/kantatie.jpg"
+        "alternative2": "./databaseMock/images/metsa_alue.jpg",
+        "alternative3": "./databaseMock/images/paivakoti.jpg"
       },
       "feedback": {
         "alternative1": "",

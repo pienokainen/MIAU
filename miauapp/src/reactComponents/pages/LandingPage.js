@@ -11,7 +11,9 @@ export default function LandingPage(props) {
   return (
     <div id="rapper">
       <TextArea
-        text={"Hei, ter-ve-tu-loa Ko-a-lan Lii-ken-ne-tes-tiin. A-loi-ta tes-ti pai-na-mal-la nap-pu-laa!"}
+        text={
+          "HEI, TER-VE-TU-LOA KO-A-LAN LII-KEN-NE-TES-TIIN. A-LOI-TA TES-TI PAI-NA-MAL-LA NAP-PU-LAA!"
+        }
         classPosition={"text-area"}
         classStyle={"lp-text-style"}
       />
@@ -21,7 +23,7 @@ export default function LandingPage(props) {
         classStyle={"start-button-style"}
         onClick={handlePageChange}
       />
-       <StoryImage
+      <StoryImage
         image={"./databaseMock/images/logo.jpeg"}
         classPosition={"story-image"}
         classStyle={"lp-image-style"}

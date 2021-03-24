@@ -1,6 +1,6 @@
 .start-button {
   margin-top: 5.5em;
-  margin-left:4.5em;
+  margin-left: 4.5em;
 }
 .start-button-style {
   background-color: #15ac19;
@@ -48,11 +48,12 @@
   width: 23em;
   float: left;
   text-align: center;
-  padding: 1.0em;
-  margin-top: 1.0em;
-  padding-bottom: 1.0em;
+  padding: 1em;
+  margin-top: 1em;
+  padding-bottom: 1em;
   border-color: #014966;
   border-style: solid;
+  word-spacing: 15px;
 }
 
 .questionnaire-button-style {
@@ -123,6 +124,7 @@
   margin-top: -2em;
   border-color: #014966;
   border-style: solid;
+  word-spacing: 15px;
 }
 
 .position-top-right {
@@ -156,21 +158,19 @@
   margin-top: 0.8em;
   position: absolute;
   top: 0;
-  right:2.26em;
+  right: 2.26em;
 }
 
 .points-style {
   background-color: Transparent;
   width: 4em;
-  
 }
-.point-image{
+.point-image {
   margin-left: 38em;
   margin-top: 0.5em;
 }
 
-
-.point-text-style{
+.point-text-style {
   margin-left: 44.5em;
   margin-top: -3em;
 }
@@ -178,18 +178,18 @@
   display: block;
   position: relative;
   margin-left: 6em;
-  background-color: #fffc3a ;
+  background-color: #fffc3a;
   width: 25em;
   float: left;
   text-align: center;
   padding: 1em;
   margin-top: -2em;
-  border-color:#014966;
+  border-color: #014966;
   border-style: solid;
   border-radius: 1.5em;
   border-width: 0.23em;
   box-shadow: 0 0.2em rgb(173, 167, 77);
-  
+  word-spacing: 15px;
 }
 
 .lp-image-style {
@@ -201,7 +201,7 @@
   float: left;
   border-style: solid;
   border-radius: 6em;
-  border-color:#014966;
+  border-color: #014966;
   border-width: 0.5em;
   box-shadow: 0 0.2em rgb(173, 167, 77);
 }

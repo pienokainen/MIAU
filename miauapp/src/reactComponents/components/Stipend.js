@@ -4,10 +4,10 @@ import "./styles.css";
 export default function Stipend(props) {
   return (
     <div className={props.classPosition}>
-      <h3 style={{maxWidth: "30em"}}>
+      <h3 style={{ maxWidth: "30em" }}>
         {" "}
-        Kii-tos Koa-lan Lii-ken-ne-tes-tin suo-rit-ta-mi-ses-ta, al-la
-        sti-pen-di.{" "}
+        KII-TOS KOA-LAN LII-KEN-NE-TES-TIN SUO-RIT-TA-MI-SES-TA, AL-LA
+        STI-PEN-DI.{" "}
       </h3>
       <img
         className="stipend-image"

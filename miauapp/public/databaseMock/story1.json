@@ -3,7 +3,7 @@
   "pages": [
     {
       "pageType": "story",
-      "text": "HEI, TÄS-SÄ ON E-KA-LUOK-KA-LAI-NEN LII-SA JA HÄN ON LÄH-DÖS-SÄ KOU-LUUN. LII-SA ON NYT VA-LIT-SE-MAS-SA UL-KO-VAAT-TEI-TAAN. ",
+      "text": "HEI, TÄS-SÄ ON E-KA-LUOK-KA-LAI-NEN LII-SA. LII-SA ON LÄH-DÖS-SÄ KOU-LUUN. LII-SA ON VA-LIT-SE-MAS-SA UL-KO-VAAT-TEI-TAAN. ",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_huoneessa.png"
       }
@@ -32,7 +32,7 @@
     },
     {
       "pageType": "questionnaire",
-      "text": "MI-KÄ MERK-KI KU-VAA SUO-JA-TIE-TÄ? ",
+      "text": "MI-KÄ MERK-KI KU-VAA SUO-JA-TIE-TÄ? PAI-NA OI-KE-AA KU-VAA.",
       "correct": 0,
       "questionImages": {
         "alternative1": "./databaseMock/images/suojatie.png",
@@ -47,7 +47,7 @@
     },
     {
       "pageType": "story",
-      "text": "LII-SA LÖY-TÄÄ SUO-JA-TIEN JA SUUN-NIT-TE-LEE TIEN Y-LI-TYS-TÄ. ",
+      "text": "LII-SA LÖY-TÄÄ SUO-JA-TIEN JA AI-KOO Y-LIT-TÄÄ TIEN. ",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_ylittaa_tien.png"
       }
@@ -69,14 +69,14 @@
     },
     {
       "pageType": "story",
-      "text": "LII-SA Y-LIT-TI TIEN JA MIET-TII, MI-KÄ PA-RAN-TAI-SI HÄ-NEN NÄ-KY-VYYT-TÄÄN LII-KEN-TEES-SÄ ",
+      "text": "LII-SA Y-LIT-TI TIEN. LIISA MIET-TII MI-KÄ AUT-TAI-SI AU-TO-JA NÄ-KE-MÄÄN LII-SAN LII-KEN-TEES-SÄ. ",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_on_ylittanyt_tien.png"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "MI-KÄ PA-RAN-TAA LII-SAN NÄ-KY-VYYT-TÄ? ",
+      "text": "MI-KÄ AUT-TAA AU-TO-JA NÄ-KE-MÄÄN LII-SAN PA-REM-MIN? ",
       "correct": 2,
       "questionImages": {
         "alternative1": "./databaseMock/images/nalle.jpg",
@@ -91,7 +91,7 @@
     },
     {
       "pageType": "story",
-      "text": "LII-SA JAT-KAA MAT-KAAN-SA JA HUO-MAA KYL-TIN JA POH-TII, MI-TÄ SE TAR-KOIT-TAA.",
+      "text": "LII-SA JAT-KAA MAT-KAAN-SA JA HUO-MAA KYL-TIN. LII-SA POH-TII, MI-TÄ SE TAR-KOIT-TAA.",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_ja_stop.jpg"
       }

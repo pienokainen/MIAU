@@ -31,9 +31,9 @@ export default function QuestionnairePage({
       case 2:
         return pageInformation.feedback.alternative1;
       case 3:
-        return "Hy-vä, tie-na-sit yh-den ko-li-kon!";
+        return "HY-VÄ, TIE-NA-SIT YH-DEN KO-LI-KON!";
       case 4:
-        return "Voi ei, nyt me-ni pie-leen, y-ri-tä uu-del-leen";
+        return "VOI EI, NYT ME-NI PIE-LEEN, Y-RI-TÄ UU-DEL-LEEN";
       default:
         return;
     }

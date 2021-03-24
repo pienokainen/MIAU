@@ -3,19 +3,19 @@
   "pages": [
     {
       "pageType": "story",
-      "text": "Hei, täs-sä on e-ka-luok-ka-lai-nen Lii-sa ja hän on läh-dös-sä kou-luun. Lii-sa on par-hail-laan va-lit-se-mas-sa ul-ko-vaat-tei-taan. Voi-sit-ko aut-taa Lii-saa? ",
+      "text": "HEI, TÄS-SÄ ON E-KA-LUOK-KA-LAI-NEN LII-SA JA HÄN ON LÄH-DÖS-SÄ KOU-LUUN. LII-SA ON NYT VA-LIT-SE-MAS-SA UL-KO-VAAT-TEI-TAAN. ",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_huoneessa.png"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "Va-lit-se Lii-sal-le lii-ken-tee-seen tur-val-li-sim-mat vaat-teet. Pai-na oi-ke-aa ku-vaa.",
+      "text": "VA-LIT-SE LII-SAL-LE LII-KEN-TEE-SEEN TUR-VAL-LI-SIM-MAT VAAT-TEET. PAI-NA OI-KE-AA KU-VAA.",
       "correct": 1,
       "questionImages": {
         "alternative1": "./databaseMock/images/harmaatakki.jpg",
         "alternative2": "./databaseMock/images/punainentakki.jpg",
-        "alternative3": "./databaseMock/images/harmaatakki2.jpg"
+        "alternative3": "./databaseMock/images/uusipaita.png"
       },
       "feedback": {
         "alternative1": "Feedback ... ...",
@@ -25,14 +25,14 @@
     },
     {
       "pageType": "story",
-      "text": "Lii-sa läh-tee kä-ve-le-mään kou-luun ja al-kaa et-si-mään suo-ja-tie-kylt-ti-ä, sil-lä Lii-san tu-lee y-lit-tää tie. ",
+      "text": "LII-SA LÄH-TEE KÄ-VE-LE-MÄÄN KOU-LUUN JA AL-KAA ET-SI-MÄÄN SUO-JA-TIE-KYLT-TI-Ä. ",
       "storyImage": {
         "imageLocation": "./databaseMock/images/Liisa_etsii_suojatieta.png"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "Mi-kä merk-ki ku-vaa suo-ja-tie-tä? Pai-na oi-ke-aa ku-vaa.",
+      "text": "MI-KÄ MERK-KI KU-VAA SUO-JA-TIE-TÄ? ",
       "correct": 0,
       "questionImages": {
         "alternative1": "./databaseMock/images/suojatie.png",
@@ -47,14 +47,14 @@
     },
     {
       "pageType": "story",
-      "text": "Lii-sa löy-tää suo-ja-tien ja suun-nit-te-lee tien y-li-tys-tä. ",
+      "text": "LII-SA LÖY-TÄÄ SUO-JA-TIEN JA SUUN-NIT-TE-LEE TIEN Y-LI-TYS-TÄ. ",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_ylittaa_tien.png"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "Mi-tä Lii-san tu-lee muis-taa tie-tä y-lit-tä-es-sä? ",
+      "text": "MI-TÄ LII-SAN TU-LEE MUIS-TAA TIE-TÄ Y-LIT-TÄ-ES-SÄ? ",
       "correct": 2,
       "questionImages": {
         "alternative1": "./databaseMock/images/liisa_vain_ylittaa.png",
@@ -69,14 +69,14 @@
     },
     {
       "pageType": "story",
-      "text": "Lii-sa on nyt y-lit-tä-nyt tien ja al-kaa poh-ti-maan, mi-kä pa-ran-tai-si hä-nen nä-ky-vyyt-tän-sä lii-ken-tees-sä?",
+      "text": "LII-SA Y-LIT-TI TIEN JA MIET-TII, MI-KÄ PA-RAN-TAI-SI HÄ-NEN NÄ-KY-VYYT-TÄÄN LII-KEN-TEES-SÄ ",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_on_ylittanyt_tien.png"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "Tie-dät-kö si-nä, mi-kä pa-ran-taa Lii-san nä-ky-vyyt-tä? ",
+      "text": "MI-KÄ PA-RAN-TAA LII-SAN NÄ-KY-VYYT-TÄ? ",
       "correct": 2,
       "questionImages": {
         "alternative1": "./databaseMock/images/nalle.jpg",
@@ -91,14 +91,14 @@
     },
     {
       "pageType": "story",
-      "text": "Lii-sa jat-kaa mat-kaan-sa ja huo-maa au-toi-li-joil-le tar-koi-te-tun py-säh-dys-mer-kin.",
+      "text": "LII-SA JAT-KAA MAT-KAAN-SA JA HUO-MAA KYL-TIN JA POH-TII, MI-TÄ SE TAR-KOIT-TAA.",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_ja_stop.jpg"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "Tie-dät-kö si-nä, mil-tä py-säh-dys-merk-ki näyt-tää?",
+      "text": "TIE-DÄT-KÖ SI-NÄ, MIL-TÄ PY-SÄH-DYS-MERK-KI NÄYT-TÄÄ?",
       "correct": 0,
       "questionImages": {
         "alternative1": "./databaseMock/images/stop-merkki.jpg",
@@ -113,14 +113,14 @@
     },
     {
       "pageType": "story",
-      "text": "Lii-sa nä-kee kyl-tin ja ei-kä tie-dä-kään, ke-nel-le se on tar-koi-tet-tu.",
+      "text": "NYT LII-SA NÄ-KEE KYL-TIN JA EI-KÄ TIE-DÄ KE-NEL-LE NO-PEUS-RA-JOI-TUS ON TAR-KOI-TET-TU. ",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_ja_nopeusrajoitus.jpg"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "O-saat-ko ker-to-a ke-nel-le no-peus-ra-joi-tus on tar-koi-tet-tu? ",
+      "text": "TIE-DÄT-KÖ KE-NEL-LE NO-PEUS-RA-JOI-TUS ON TAR-KOI-TET-TU? ",
       "correct": 1,
       "questionImages": {
         "alternative1": "./databaseMock/images/pyörä.png",
@@ -135,14 +135,14 @@
     },
     {
       "pageType": "story",
-      "text": "Lii-sa nä-kee tu-tun kyl-tin ja tie-tää o-le-van-sa pe-ril-lä.",
+      "text": "LII-SA NÄ-KEE TU-TUN KYL-TIN JA TIE-TÄÄ O-LE-VAN-SA PE-RIL-LÄ.",
       "storyImage": {
         "imageLocation": "./databaseMock/images/liisa_koululla.png"
       }
     },
     {
       "pageType": "questionnaire",
-      "text": "Mi-kä kylt-ti ker-too, et-tä Lii-sa on pe-ril-lä kou-lus-sa?",
+      "text": "MI-KÄ KYLT-TI KER-TOO, ET-TÄ LII-SA ON PE-RIL-LÄ KOU-LUS-SA?",
       "correct": 0,
       "questionImages": {
         "alternative1": "./databaseMock/images/paikkakyltti.jpg",

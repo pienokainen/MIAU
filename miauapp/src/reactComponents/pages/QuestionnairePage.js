@@ -42,7 +42,7 @@ export default function QuestionnairePage({
   const answerSuccess = () => {
     setTimeout(function () {
       setShowNextPageButton(true);
-    }, 2500);
+    }, 1350);
   };
 
   const updateFeedback = (buttonIndex) => {

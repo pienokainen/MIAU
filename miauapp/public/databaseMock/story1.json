@@ -5,7 +5,7 @@
       "pageType": "story",
       "text": "HEI, TÄS-SÄ ON E-KA-LUOK-KA-LAI-NEN LII-SA. LII-SA ON LÄH-DÖS-SÄ KOU-LUUN. LII-SA ON VA-LIT-SE-MAS-SA UL-KO-VAAT-TEI-TAAN. ",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/liisa_huoneessa.png"
+        "imageLocation": "./databaseMock/images/liisa_huoneessa.jpg"
       }
     },
     {
@@ -27,7 +27,7 @@
       "pageType": "story",
       "text": "LII-SA LÄH-TEE KÄ-VE-LE-MÄÄN KOU-LUUN JA AL-KAA ET-SI-MÄÄN SUO-JA-TIE-KYLT-TI-Ä. ",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/Liisa_etsii_suojatieta.png"
+        "imageLocation": "./databaseMock/images/Liisa_etsii_suojatieta.jpg"
       }
     },
     {
@@ -49,7 +49,7 @@
       "pageType": "story",
       "text": "LII-SA LÖY-TÄÄ SUO-JA-TIEN JA AI-KOO Y-LIT-TÄÄ TIEN. ",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/liisa_ylittaa_tien.png"
+        "imageLocation": "./databaseMock/images/liisa_ylittaa_tien.jpg"
       }
     },
     {
@@ -71,7 +71,7 @@
       "pageType": "story",
       "text": "LII-SA Y-LIT-TI TIEN. LIISA MIET-TII MI-KÄ AUT-TAI-SI AU-TO-JA NÄ-KE-MÄÄN LII-SAN LII-KEN-TEES-SÄ. ",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/liisa_on_ylittanyt_tien.png"
+        "imageLocation": "./databaseMock/images/liisa_on_ylittanyt_tien.jpg"
       }
     },
     {
@@ -137,7 +137,7 @@
       "pageType": "story",
       "text": "LII-SA NÄ-KEE TU-TUN KYL-TIN JA TIE-TÄÄ O-LE-VAN-SA PE-RIL-LÄ.",
       "storyImage": {
-        "imageLocation": "./databaseMock/images/liisa_koululla.png"
+        "imageLocation": "./databaseMock/images/liisa_koululla.jpg"
       }
     },
     {
